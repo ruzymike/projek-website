@@ -3,106 +3,239 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wireframe Halaman Admin — Website Sertifikat Online FIK UI</title>
+<title>Wireframe Halaman Admin (Dark) — Website Sertifikat Online FIK UI</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
 <style>
+/* CSS Variables for Dark Theme */
+:root {
+  --bg-main: #121212;
+  --bg-surface: #1E1E1E;
+  --bg-card: #252525;
+  --bg-input: #121212;
+  
+  --text-primary: #FFFFFF;
+  --text-secondary: #AAAAAA;
+  --text-muted: #777777;
+  
+  --border-color: #333333;
+  --border-focus: #555555;
+  
+  --brand-blue: #2563EB;
+  --brand-blue-hover: #1D4ED8;
+  
+  --status-pending: #D97706; /* Amber */
+  --status-pending-bg: rgba(217, 119, 6, 0.15);
+  --status-approved: #059669; /* Emerald */
+  --status-approved-bg: rgba(5, 150, 105, 0.15);
+  --status-rejected: #DC2626; /* Red */
+  --status-rejected-bg: rgba(220, 38, 38, 0.15);
+  
+  --step-active: #2563EB;
+  --step-done: #059669;
+  --step-pending: #444444;
+}
+
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Arial,sans-serif;color:#1a1a1a;background:#f5f5f3;padding:32px 16px}
+body{font-family:Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;color:var(--text-primary);background:var(--bg-main);padding:32px 16px}
 .container{max-width:960px;margin:0 auto}
-h1{font-size:20px;font-weight:600;color:#1A3A6B;margin-bottom:4px}
-.doc-meta{font-size:12px;color:#888;margin-bottom:32px}
+h1{font-size:20px;font-weight:600;color:var(--text-primary);margin-bottom:4px}
+.doc-meta{font-size:12px;color:var(--text-secondary);margin-bottom:32px}
 
 .page-section{margin-bottom:60px}
-.page-tag{font-size:12px;font-weight:600;color:#185FA5;background:#E6F1FB;border:1px solid #B5D4F4;border-radius:6px;padding:4px 10px;display:inline-block;margin-bottom:8px}
-.page-label{font-size:20px;font-weight:600;color:#1a1a1a;margin-bottom:2px}
-.page-url{font-size:12px;color:#aaa;font-family:monospace;margin-bottom:14px}
+.page-tag{font-size:12px;font-weight:600;color:#60A5FA;background:rgba(37, 99, 235, 0.2);border:1px solid rgba(37, 99, 235, 0.4);border-radius:6px;padding:4px 10px;display:inline-block;margin-bottom:8px}
+.page-label{font-size:20px;font-weight:600;color:var(--text-primary);margin-bottom:2px}
+.page-url{font-size:12px;color:var(--text-muted);font-family:monospace;margin-bottom:14px}
 
-.screen{border:1.5px solid #bbb;border-radius:12px;overflow:hidden;background:#fff;display:flex;flex-direction:column;min-height:600px}
-.topbar{background:#1A3A6B;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;color:#fff}
+/* Outer Screen Mockup */
+.screen{border:1px solid var(--border-color);border-radius:12px;overflow:hidden;background:var(--bg-surface);display:flex;flex-direction:column;min-height:600px;box-shadow: 0 10px 30px rgba(0,0,0,0.5)}
+
+/* --- LOGIN SCREEN SPECIFIC --- */
+.login-screen {
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-main);
+    padding: 40px;
+}
+.login-outer-container {
+    background: #000000;
+    border: 1px solid #222222;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 600px;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-placeholder {
+    width: 48px;
+    height: 48px;
+    background: #333333;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.login-subtitle {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+.login-inner-box {
+    background: var(--bg-card);
+    border-radius: 12px;
+    width: 100%;
+    max-width: 320px;
+    padding: 24px;
+}
+.form-group {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.form-label {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+.form-input {
+    background: var(--bg-input);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    height: 38px;
+    padding: 0 12px;
+    color: var(--text-primary);
+    width: 100%;
+}
+.form-input:focus {
+    outline: none;
+    border-color: var(--border-focus);
+}
+.btn-login {
+    background: var(--brand-blue);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    height: 38px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.btn-login:hover {
+    background: var(--brand-blue-hover);
+}
+
+
+/* --- DASHBOARD SCREENS --- */
+.topbar{background:#000000;border-bottom: 1px solid var(--border-color);padding:12px 20px;display:flex;align-items:center;justify-content:space-between;color:var(--text-primary)}
 .brand{font-size:14px;font-weight:600;display:flex;align-items:center;gap:8px}
-.brand-icon{width:20px;height:20px;background:#E6F1FB;border-radius:4px;display:flex;align-items:center;justify-content:center;color:#1A3A6B;font-size:12px;font-weight:bold}
-.user-menu{font-size:12px;display:flex;align-items:center;gap:12px}
+.brand-icon{width:20px;height:20px;background:#333;border-radius:4px;}
+.user-menu{font-size:12px;display:flex;align-items:center;gap:12px;color:var(--text-secondary)}
 
 .app-body{display:flex;flex:1}
-.sidebar{width:220px;background:#f8f9fa;border-right:1px solid #ddd;padding:20px 0;display:flex;flex-direction:column;gap:4px}
-.menu-item{padding:10px 20px;font-size:13px;color:#495057;display:flex;align-items:center;gap:10px;cursor:pointer}
-.menu-item.active{background:#E6F1FB;color:#1A3A6B;font-weight:600;border-right:3px solid #1A3A6B}
-.menu-icon{font-size:16px;color:#adb5bd}
-.menu-item.active .menu-icon{color:#1A3A6B}
-.badge-count{background:#e03131;color:white;font-size:10px;padding:2px 6px;border-radius:10px;margin-left:auto;font-weight:bold}
+.sidebar{width:220px;background:#000000;border-right:1px solid var(--border-color);padding:20px 0;display:flex;flex-direction:column;gap:4px}
+.menu-item{padding:10px 20px;font-size:13px;color:var(--text-secondary);display:flex;align-items:center;gap:10px;cursor:pointer}
+.menu-item.active{background:rgba(255,255,255,0.05);color:var(--text-primary);font-weight:600;border-right:3px solid var(--brand-blue)}
+.badge-count{background:var(--brand-blue);color:white;font-size:10px;padding:2px 6px;border-radius:10px;margin-left:auto;font-weight:bold}
 
-.main-content{flex:1;padding:24px;background:#fff}
-.page-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:24px;border-bottom:1px solid #eee;padding-bottom:16px}
-.page-title{font-size:20px;font-weight:600;color:#1a1a1a}
-.page-desc{font-size:12px;color:#868e96;margin-top:4px}
+.main-content{flex:1;padding:24px;background:var(--bg-main)}
+.page-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:24px;border-bottom:1px solid var(--border-color);padding-bottom:16px}
+.page-title{font-size:20px;font-weight:600;color:var(--text-primary)}
+.page-desc{font-size:12px;color:var(--text-secondary);margin-top:4px}
 .header-actions{display:flex;gap:8px}
 
 .btn{padding:8px 14px;border-radius:6px;font-size:12px;font-weight:600;display:inline-flex;align-items:center;gap:6px;cursor:pointer;border:1px solid transparent}
-.btn-primary{background:#185FA5;color:#fff;border-color:#185FA5}
-.btn-success{background:#2b8a3e;color:#fff;border-color:#2b8a3e}
-.btn-danger{background:#e03131;color:#fff;border-color:#e03131}
-.btn-outline{background:#fff;color:#495057;border-color:#ced4da}
+.btn-primary{background:var(--brand-blue);color:#fff;border-color:var(--brand-blue)}
+.btn-success{background:#059669;color:#fff;border-color:#059669}
+.btn-danger{background:#DC2626;color:#fff;border-color:#DC2626}
+.btn-outline{background:var(--bg-card);color:var(--text-primary);border-color:var(--border-color)}
 
 /* Dashboard inbox styles */
-.filter-bar{display:flex;gap:12px;margin-bottom:16px;background:#f8f9fa;padding:12px;border-radius:8px;border:1px solid #eee}
-.filter-input{height:32px;border:1px solid #ced4da;border-radius:4px;padding:0 10px;font-size:12px;min-width:180px}
-.filter-select{height:32px;border:1px solid #ced4da;border-radius:4px;padding:0 10px;font-size:12px;background:#fff}
+.filter-bar{display:flex;gap:12px;margin-bottom:16px;background:var(--bg-card);padding:12px;border-radius:8px;border:1px solid var(--border-color)}
+.filter-input, .filter-select{background:var(--bg-input);border:1px solid var(--border-color);color:var(--text-primary);height:32px;border-radius:4px;padding:0 10px;font-size:12px;}
+.filter-input{min-width:180px}
 
 .data-table{width:100%;border-collapse:collapse;font-size:12px}
-.data-table th{text-align:left;padding:12px;background:#f8f9fa;border-bottom:2px solid #dee2e6;color:#495057;font-weight:600}
-.data-table td{padding:12px;border-bottom:1px solid #eee;vertical-align:middle}
-.data-table tr:hover{background:#f1f3f5}
+.data-table th{text-align:left;padding:12px;background:#000000;border-bottom:1px solid var(--border-color);color:var(--text-secondary);font-weight:600}
+.data-table td{padding:12px;border-bottom:1px solid var(--border-color);vertical-align:middle;color:var(--text-primary)}
+.data-table tr:hover{background:var(--bg-card)}
+.text-muted { color: var(--text-muted); font-size: 11px; }
 
 .status-badge{padding:4px 8px;border-radius:4px;font-size:11px;font-weight:600;display:inline-block}
-.status-menunggu{background:#fff3bf;color:#f08c00}
-.status-disetujui{background:#d3f9d8;color:#2b8a3e}
-.status-ditolak{background:#ffe3e3;color:#e03131}
-.status-diterbitkan{background:#e6fcf5;color:#0ca678}
+.status-menunggu{background:var(--status-pending-bg);color:var(--status-pending)}
+.status-disetujui{background:var(--status-approved-bg);color:var(--status-approved)}
+.status-ditolak{background:var(--status-rejected-bg);color:var(--status-rejected)}
 
 /* Detail page styles */
 .detail-grid{display:grid;grid-template-columns:2fr 1fr;gap:24px}
-.detail-card{border:1px solid #dee2e6;border-radius:8px;overflow:hidden;margin-bottom:20px}
-.card-header{background:#f8f9fa;padding:12px 16px;border-bottom:1px solid #dee2e6;font-size:13px;font-weight:600;color:#1a1a1a}
+.detail-card{border:1px solid var(--border-color);border-radius:8px;overflow:hidden;margin-bottom:20px;background:var(--bg-card)}
+.card-header{background:#000000;padding:12px 16px;border-bottom:1px solid var(--border-color);font-size:13px;font-weight:600;color:var(--text-primary)}
 .card-body{padding:16px}
 
 .info-row{display:flex;margin-bottom:12px;font-size:12px}
 .info-row:last-child{margin-bottom:0}
-.info-label{width:140px;color:#868e96;flex-shrink:0}
-.info-value{color:#1a1a1a;font-weight:500}
+.info-label{width:140px;color:var(--text-secondary);flex-shrink:0}
+.info-value{color:var(--text-primary);font-weight:500}
 
-.file-item{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border:1px solid #e9ecef;border-radius:6px;margin-bottom:8px;background:#f8f9fa}
+.file-item{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border:1px solid var(--border-color);border-radius:6px;margin-bottom:8px;background:var(--bg-input)}
 .file-info{display:flex;align-items:center;gap:8px}
-.file-icon{color:#185FA5;font-size:18px}
-.file-name{font-size:12px;color:#1a1a1a;font-weight:500}
-.file-meta{font-size:11px;color:#868e96}
+.file-icon{color:var(--text-secondary);font-size:18px}
+.file-name{font-size:12px;color:var(--text-primary);font-weight:500}
+.file-meta{font-size:11px;color:var(--text-muted)}
 
-.step-box{border-left:2px solid #dee2e6;padding-left:16px;margin-left:8px;position:relative;padding-bottom:24px}
+.step-box{border-left:2px solid var(--border-color);padding-left:16px;margin-left:8px;position:relative;padding-bottom:24px}
 .step-box:last-child{border-left-color:transparent;padding-bottom:0}
-.step-dot{width:12px;height:12px;border-radius:50%;background:#dee2e6;position:absolute;left:-7px;top:0}
-.step-dot.active{background:#185FA5}
-.step-dot.success{background:#2b8a3e}
-.step-title{font-size:13px;font-weight:600;color:#1a1a1a;margin-top:-2px;margin-bottom:8px}
-.step-desc{font-size:12px;color:#495057;line-height:1.4}
+.step-dot{width:12px;height:12px;border-radius:50%;background:var(--step-pending);position:absolute;left:-7px;top:0}
+.step-dot.active{background:var(--step-active); box-shadow: 0 0 0 3px rgba(37,99,235,0.2)}
+.step-dot.success{background:var(--step-done)}
+.step-title{font-size:13px;font-weight:600;color:var(--text-primary);margin-top:-2px;margin-bottom:8px}
+.step-desc{font-size:12px;color:var(--text-secondary);line-height:1.4}
 
-.action-bar{background:#f8f9fa;padding:16px;border-radius:8px;border:1px solid #dee2e6;margin-top:20px;display:flex;gap:12px}
-.textarea-mock{width:100%;height:80px;border:1px solid #ced4da;border-radius:6px;background:#fff;padding:10px;font-size:12px;color:#868e96;margin-bottom:12px;resize:none}
+.textarea-mock{width:100%;height:80px;border:1px solid var(--border-color);border-radius:6px;background:var(--bg-input);padding:10px;font-size:12px;color:var(--text-primary);margin-bottom:12px;resize:none}
+.textarea-mock::placeholder{color:var(--text-muted)}
 
-.footer{text-align:center;font-size:11px;color:#bbb;margin-top:40px;padding-top:20px;border-top:1px solid #e0e0e0}
+.footer{text-align:center;font-size:11px;color:var(--text-muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--border-color)}
 </style>
 </head>
 <body>
 <div class="container">
-  <h1>Wireframe Halaman Admin</h1>
-  <div class="doc-meta">Sesuai PRD v4: Flow Inbox -> Review -> Input Excel -> Generate Queue</div>
+  <h1>Wireframe Halaman Admin (Dark Theme)</h1>
+  <div class="doc-meta">Revisi desain: Tema gelap sesuai referensi gambar. Sesuai PRD v4: Flow Inbox -> Review -> Input Excel -> Generate Queue</div>
 
-  <!-- HALAMAN 1: INBOX PENGAJUAN -->
+  <!-- HALAMAN 1: LOGIN -->
   <div class="page-section">
-    <div class="page-tag">Dashboard Admin 1</div>
+    <div class="page-tag">Halaman 1 dari 4</div>
+    <div class="page-label">Login Admin</div>
+    <div class="page-url">/admin/login</div>
+    <div class="screen login-screen">
+        <div class="login-outer-container">
+            <div class="logo-placeholder"></div>
+            <div class="login-subtitle">Dashboard Admin Sertifikat</div>
+            
+            <div class="login-inner-box">
+                <div class="form-group">
+                    <div class="form-label">Email</div>
+                    <input type="text" class="form-input">
+                </div>
+                <div class="form-group">
+                    <div class="form-label">Password</div>
+                    <input type="password" class="form-input">
+                </div>
+                <button class="btn-login">Masuk</button>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+  <!-- HALAMAN 2: INBOX PENGAJUAN -->
+  <div class="page-section">
+    <div class="page-tag">Halaman 2 dari 4</div>
     <div class="page-label">Inbox Pengajuan Sertifikat</div>
     <div class="page-url">/admin/pengajuan</div>
     <div class="screen">
       <div class="topbar">
-        <div class="brand"><div class="brand-icon">FIK</div> FIK UI Sertifikat Admin</div>
+        <div class="brand"><div class="brand-icon"></div> FIK UI Sertifikat Admin</div>
         <div class="user-menu"><span>Halo, Administrator</span> | <span>Logout</span></div>
       </div>
       <div class="app-body">
@@ -148,34 +281,26 @@ h1{font-size:20px;font-weight:600;color:#1A3A6B;margin-bottom:4px}
             <tbody>
               <tr>
                 <td><strong>REF-2026-00123</strong></td>
-                <td>Seminar Nasional Keperawatan 2026<br><span style="color:#888;font-size:11px">20 Juni 2026 • SKP: Ya • Indonesia</span></td>
-                <td>Dr. Siti Aminah<br><span style="color:#888;font-size:11px">siti@fik.ui.ac.id</span></td>
-                <td>25 Jun 2026<br><span style="color:#888;font-size:11px">09:12 WIB</span></td>
+                <td>Seminar Nasional Keperawatan 2026<br><span class="text-muted">20 Juni 2026 • SKP: Ya • Indonesia</span></td>
+                <td>Dr. Siti Aminah<br><span class="text-muted">siti@fik.ui.ac.id</span></td>
+                <td>25 Jun 2026<br><span class="text-muted">09:12 WIB</span></td>
                 <td><span class="status-badge status-menunggu">Menunggu Review</span></td>
                 <td><button class="btn btn-primary">Review & Proses</button></td>
               </tr>
               <tr>
                 <td><strong>REF-2026-00122</strong></td>
-                <td>Workshop Metodologi Riset<br><span style="color:#888;font-size:11px">18 Juni 2026 • SKP: Tidak • Inggris</span></td>
-                <td>Budi Santoso<br><span style="color:#888;font-size:11px">budi@fik.ui.ac.id</span></td>
-                <td>24 Jun 2026<br><span style="color:#888;font-size:11px">14:30 WIB</span></td>
+                <td>Workshop Metodologi Riset<br><span class="text-muted">18 Juni 2026 • SKP: Tidak • Inggris</span></td>
+                <td>Budi Santoso<br><span class="text-muted">budi@fik.ui.ac.id</span></td>
+                <td>24 Jun 2026<br><span class="text-muted">14:30 WIB</span></td>
                 <td><span class="status-badge status-menunggu">Menunggu Review</span></td>
                 <td><button class="btn btn-primary">Review & Proses</button></td>
               </tr>
               <tr>
                 <td><strong>REF-2026-00121</strong></td>
-                <td>Pelatihan K3 Rumah Sakit<br><span style="color:#888;font-size:11px">15 Juni 2026 • SKP: Ya • Indonesia</span></td>
-                <td>Andi Wijaya<br><span style="color:#888;font-size:11px">andi@rscm.co.id</span></td>
-                <td>20 Jun 2026<br><span style="color:#888;font-size:11px">10:05 WIB</span></td>
+                <td>Pelatihan K3 Rumah Sakit<br><span class="text-muted">15 Juni 2026 • SKP: Ya • Indonesia</span></td>
+                <td>Andi Wijaya<br><span class="text-muted">andi@rscm.co.id</span></td>
+                <td>20 Jun 2026<br><span class="text-muted">10:05 WIB</span></td>
                 <td><span class="status-badge status-disetujui">Disetujui</span></td>
-                <td><button class="btn btn-outline">Lihat Detail</button></td>
-              </tr>
-              <tr>
-                <td><strong>REF-2026-00120</strong></td>
-                <td>Webinar Keperawatan Anak<br><span style="color:#888;font-size:11px">10 Juni 2026 • SKP: Ya • Indonesia</span></td>
-                <td>Citra Lestari<br><span style="color:#888;font-size:11px">citra@gmail.com</span></td>
-                <td>12 Jun 2026<br><span style="color:#888;font-size:11px">16:20 WIB</span></td>
-                <td><span class="status-badge status-diterbitkan">Diterbitkan</span></td>
                 <td><button class="btn btn-outline">Lihat Detail</button></td>
               </tr>
             </tbody>
@@ -185,14 +310,14 @@ h1{font-size:20px;font-weight:600;color:#1A3A6B;margin-bottom:4px}
     </div>
   </div>
 
-  <!-- HALAMAN 2: DETAIL & REVIEW -->
+  <!-- HALAMAN 3: DETAIL & REVIEW -->
   <div class="page-section">
-    <div class="page-tag">Dashboard Admin 2</div>
+    <div class="page-tag">Halaman 3 dari 4</div>
     <div class="page-label">Detail Review & Proses Penerbitan</div>
     <div class="page-url">/admin/pengajuan/REF-2026-00123</div>
     <div class="screen">
       <div class="topbar">
-        <div class="brand"><div class="brand-icon">FIK</div> FIK UI Sertifikat Admin</div>
+        <div class="brand"><div class="brand-icon"></div> FIK UI Sertifikat Admin</div>
         <div class="user-menu"><span>Halo, Administrator</span> | <span>Logout</span></div>
       </div>
       <div class="app-body">
@@ -245,9 +370,9 @@ h1{font-size:20px;font-weight:600;color:#1A3A6B;margin-bottom:4px}
               </div>
 
               <div class="detail-card">
-                <div class="card-header" style="background:#fff3bf">Review & Keputusan Awal</div>
+                <div class="card-header" style="background:rgba(217, 119, 6, 0.1); color:var(--status-pending)">Review & Keputusan Awal</div>
                 <div class="card-body">
-                  <div style="font-size:12px;margin-bottom:12px;color:#495057">Periksa kelengkapan data kegiatan dan desain sertifikat. Jika tidak sesuai, Anda dapat menolak pengajuan ini.</div>
+                  <div style="font-size:12px;margin-bottom:12px;color:var(--text-secondary)">Periksa kelengkapan data kegiatan dan desain sertifikat. Jika tidak sesuai, Anda dapat menolak pengajuan ini.</div>
                   <textarea class="textarea-mock" placeholder="Catatan penolakan (wajib jika menolak)..."></textarea>
                   <div style="display:flex;gap:12px">
                     <button class="btn btn-success">✅ Approve Pengajuan</button>
@@ -274,11 +399,11 @@ h1{font-size:20px;font-weight:600;color:#1A3A6B;margin-bottom:4px}
                   <div class="step-box">
                     <div class="step-dot active"></div>
                     <div class="step-title">2. Approve Pengajuan</div>
-                    <div class="step-desc" style="color:#e03131;font-weight:500">Menunggu keputusan Anda.</div>
+                    <div class="step-desc" style="color:var(--status-pending);font-weight:500">Menunggu keputusan Anda.</div>
                   </div>
 
                   <!-- Step 3 (Disabled state) -->
-                  <div class="step-box" style="opacity:0.5">
+                  <div class="step-box" style="opacity:0.4">
                     <div class="step-dot"></div>
                     <div class="step-title">3. Input Nomor di Excel</div>
                     <div class="step-desc">Unduh file Excel asli dari pengaju, isikan kolom <strong>Nomor Sertifikat</strong> (dan Validity Code jika ada).</div>
@@ -288,14 +413,14 @@ h1{font-size:20px;font-weight:600;color:#1A3A6B;margin-bottom:4px}
                       <button class="btn btn-outline" style="padding:4px 8px;font-size:10px">Unduh Excel</button>
                     </div>
                     
-                    <div style="background:#e9ecef;border:1px dashed #adb5bd;padding:12px;text-align:center;border-radius:6px;margin-top:8px">
-                      <span style="font-size:11px;color:#495057">Upload Excel yang sudah diisi Nomor Sertifikat</span>
+                    <div style="background:var(--bg-input);border:1px dashed var(--border-color);padding:12px;text-align:center;border-radius:6px;margin-top:8px">
+                      <span style="font-size:11px;color:var(--text-secondary)">Upload Excel yang sudah diisi Nomor Sertifikat</span>
                       <button class="btn btn-outline" style="margin-top:8px;width:100%;justify-content:center" disabled>Upload Excel Baru</button>
                     </div>
                   </div>
 
                   <!-- Step 4 (Disabled state) -->
-                  <div class="step-box" style="opacity:0.5">
+                  <div class="step-box" style="opacity:0.4">
                     <div class="step-dot"></div>
                     <div class="step-title">4. Generate Massal (Queue)</div>
                     <div class="step-desc">Sistem akan menimpa (overlay) data teks dari Excel ke atas gambar desain yang diupload.</div>
@@ -303,7 +428,7 @@ h1{font-size:20px;font-weight:600;color:#1A3A6B;margin-bottom:4px}
                   </div>
 
                   <!-- Step 5 (Disabled state) -->
-                  <div class="step-box" style="opacity:0.5;border-left-color:transparent">
+                  <div class="step-box" style="opacity:0.4;border-left-color:transparent">
                     <div class="step-dot"></div>
                     <div class="step-title">5. Terbitkan</div>
                     <div class="step-desc">Sertifikat siap diunduh oleh publik via nomor sertifikat. Email notifikasi akan dikirim ke pengaju.</div>
@@ -319,7 +444,7 @@ h1{font-size:20px;font-weight:600;color:#1A3A6B;margin-bottom:4px}
     </div>
   </div>
 
-  <div class="footer">FIK UI — Website Sertifikat Online &nbsp;|&nbsp; Wireframe Dashboard Admin &nbsp;|&nbsp; Juni 2026</div>
+  <div class="footer">FIK UI — Website Sertifikat Online &nbsp;|&nbsp; Wireframe Dashboard Admin (Dark Mode) &nbsp;|&nbsp; Juni 2026</div>
 </div>
 </body>
 </html>
