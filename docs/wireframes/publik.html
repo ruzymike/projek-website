@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wireframe Halaman Publik — Website Sertifikat Online FIK UI</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;color:#1a1a1a;background:#f5f5f3;padding:32px 16px}
+.container{max-width:720px;margin:0 auto}
+h1{font-size:20px;font-weight:600;color:#1A3A6B;margin-bottom:4px}
+.doc-meta{font-size:12px;color:#888;margin-bottom:32px}
+
+.page-section{margin-bottom:48px}
+.page-tag{font-size:12px;font-weight:600;color:#185FA5;background:#E6F1FB;border:1px solid #B5D4F4;border-radius:6px;padding:4px 10px;display:inline-block;margin-bottom:8px}
+.page-label{font-size:20px;font-weight:600;color:#1a1a1a;margin-bottom:2px}
+.page-url{font-size:12px;color:#aaa;font-family:monospace;margin-bottom:14px}
+
+.screen{border:1.5px solid #bbb;border-radius:12px;overflow:hidden;background:#fff}
+.topbar{background:#f0f0ee;border-bottom:1px solid #ddd;padding:10px 16px;display:flex;align-items:center;justify-content:space-between}
+.logo-box{width:90px;height:16px;background:#ccc;border-radius:3px}
+.topbar-nav{display:flex;gap:12px}
+.nav-item{width:50px;height:10px;background:#ddd;border-radius:3px}
+.content{background:#f5f5f3;padding:20px 16px}
+
+.hero{text-align:center;padding:16px 0 20px;border-bottom:1px solid #e0e0e0;margin-bottom:20px}
+.hero-title{width:260px;height:16px;background:#ccc;border-radius:3px;margin:0 auto 8px}
+.hero-sub{width:200px;height:10px;background:#ddd;border-radius:3px;margin:0 auto}
+
+.section-card{background:#fff;border:1px solid #ddd;border-radius:10px;margin-bottom:12px;overflow:hidden}
+.section-header{background:#f0f0ee;border-bottom:1px solid #ddd;padding:10px 14px;display:flex;align-items:center;gap:8px}
+.section-num{width:22px;height:22px;border-radius:50%;background:#E6F1FB;border:1px solid #B5D4F4;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;color:#185FA5;flex-shrink:0}
+.section-name{font-size:13px;font-weight:600;color:#1a1a1a}
+.section-body{padding:14px;display:flex;flex-direction:column;gap:10px}
+
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.field{display:flex;flex-direction:column;gap:4px}
+.field-label{font-size:11px;color:#888}
+.field-input{height:30px;background:#f9f9f9;border:1px solid #ccc;border-radius:6px}
+.field-input.full{width:100%}
+
+.radio-row{display:flex;gap:8px;margin-top:2px}
+.radio-opt{display:flex;align-items:center;gap:5px;padding:5px 10px;border:1px solid #ccc;border-radius:6px;background:#f9f9f9}
+.radio-circle{width:12px;height:12px;border-radius:50%;border:1.5px solid #bbb;flex-shrink:0}
+.radio-circle.selected{background:#378ADD;border-color:#378ADD}
+.radio-label{font-size:11px;color:#444}
+
+.conditional{background:#E6F1FB;border:1px solid #B5D4F4;border-radius:6px;padding:10px 12px;margin-top:4px}
+.conditional-label{font-size:11px;color:#185FA5;margin-bottom:8px;font-weight:600}
+.skp-table{width:100%;border-collapse:collapse}
+.skp-table th{font-size:10px;color:#888;text-align:left;padding:3px 6px;border-bottom:1px solid #B5D4F4}
+.skp-table td{padding:5px 6px}
+.skp-input{height:24px;width:100%;background:#fff;border:1px solid #B5D4F4;border-radius:4px}
+.add-row{font-size:11px;color:#185FA5;margin-top:8px;display:flex;align-items:center;gap:4px}
+
+.upload-box{height:56px;background:#f9f9f9;border:1.5px dashed #bbb;border-radius:6px;display:flex;align-items:center;justify-content:center;gap:8px}
+.upload-icon{font-size:18px;color:#aaa}
+.upload-text{font-size:11px;color:#aaa}
+.note{font-size:10px;color:#aaa;font-style:italic;padding:4px 0}
+
+.btn-submit{width:100%;height:38px;background:#378ADD;border-radius:6px;display:flex;align-items:center;justify-content:center;margin-top:8px}
+.btn-submit-text{font-size:13px;font-weight:600;color:#fff}
+.divider{height:1px;background:#e0e0e0;margin:4px 0}
+
+.status-box{background:#fff;border:1px solid #ddd;border-radius:10px;padding:16px;margin-bottom:12px}
+.status-search{display:flex;gap:8px;margin-bottom:12px}
+.status-input{flex:1;height:34px;background:#f9f9f9;border:1px solid #ccc;border-radius:6px}
+.status-btn{width:90px;height:34px;background:#378ADD;border-radius:6px;display:flex;align-items:center;justify-content:center}
+.status-btn-text{font-size:11px;color:#fff;font-weight:600}
+.status-result{border:1px solid #ddd;border-radius:8px;overflow:hidden}
+.status-result-header{background:#f0f0ee;padding:10px 12px;border-bottom:1px solid #ddd}
+.status-row{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;border-bottom:1px solid #f0f0f0}
+.status-row:last-child{border-bottom:none}
+.status-key{font-size:11px;color:#888}
+.status-val{font-size:11px;color:#1a1a1a;font-weight:500;max-width:220px;text-align:right}
+.badge{padding:3px 8px;border-radius:6px;font-size:11px;font-weight:600}
+.badge-warning{background:#FAEEDA;color:#854F0B}
+.badge-success{background:#EAF3DE;color:#3B6D11}
+.badge-danger{background:#FCEBEB;color:#A32D2D}
+.badge-accent{background:#E6F1FB;color:#185FA5}
+.timeline{padding:10px 12px}
+.timeline-item{display:flex;gap:8px;align-items:flex-start;padding:4px 0}
+.tl-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;margin-top:2px}
+.tl-dot.done{background:#639922}
+.tl-dot.active{background:#BA7517}
+.tl-dot.pending{background:#ccc}
+.tl-text{font-size:11px;color:#888}
+.tl-text.active{color:#1a1a1a;font-weight:600}
+
+.unduh-box{background:#fff;border:1px solid #ddd;border-radius:10px;padding:16px}
+.cert-card{background:#fff;border:1px solid #B5D4F4;border-radius:10px;overflow:hidden}
+.cert-card-header{background:#E6F1FB;padding:12px 14px;border-bottom:1px solid #B5D4F4}
+.cert-card-header-text{font-size:13px;font-weight:600;color:#185FA5}
+.cert-card-sub{font-size:11px;color:#185FA5;margin-top:2px;font-family:monospace}
+.cert-card-body{padding:12px 14px;display:flex;flex-direction:column;gap:7px}
+.cert-row{display:flex;justify-content:space-between;align-items:center}
+.cert-key{font-size:11px;color:#888}
+.cert-val{font-size:11px;color:#1a1a1a;font-weight:500;text-align:right;max-width:260px}
+.btn-download{height:38px;background:#3B6D11;border-radius:6px;display:flex;align-items:center;justify-content:center;gap:8px;margin-top:8px}
+.btn-download-text{font-size:13px;font-weight:600;color:#fff}
+
+.verify-box{background:#fff;border:1px solid #ddd;border-radius:10px;padding:16px}
+.verify-tabs{display:flex;border:1px solid #ddd;border-radius:6px;overflow:hidden;margin-bottom:14px}
+.verify-tab{flex:1;height:34px;display:flex;align-items:center;justify-content:center;font-size:11px;gap:6px}
+.verify-tab.active{background:#E6F1FB;color:#185FA5;font-weight:600}
+.verify-tab.inactive{background:#f9f9f9;color:#aaa}
+.verify-result{border:1px solid #C0DD97;border-radius:8px;background:#EAF3DE;padding:12px;margin-top:14px}
+.verify-result-header{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.verify-icon{font-size:22px;color:#3B6D11}
+.verify-title{font-size:13px;font-weight:600;color:#3B6D11}
+.verify-detail-row{display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #C0DD97}
+.verify-detail-row:last-child{border-bottom:none}
+.verify-detail-key{font-size:11px;color:#3B6D11}
+.verify-detail-val{font-size:11px;color:#27500A;font-weight:600;text-align:right;max-width:260px}
+
+.footer{text-align:center;font-size:11px;color:#bbb;margin-top:40px;padding-top:20px;border-top:1px solid #e0e0e0}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Wireframe Halaman Publik</h1>
+  <div class="doc-meta">Website Sertifikat Online — Fakultas Ilmu Keperawatan Universitas Indonesia &nbsp;|&nbsp; Low-fidelity wireframe &nbsp;|&nbsp; Juni 2026</div>
+
+  <!-- HALAMAN 1: FORM PENGAJUAN -->
+  <div class="page-section">
+    <div class="page-tag">Halaman 1 dari 4</div>
+    <div class="page-label">Formulir Pengajuan Sertifikat</div>
+    <div class="page-url">/pengajuan</div>
+    <div class="screen">
+      <div class="topbar">
+        <div class="logo-box"></div>
+        <div class="topbar-nav"><div class="nav-item"></div><div class="nav-item"></div></div>
+      </div>
+      <div class="content">
+        <div class="hero">
+          <div class="hero-title"></div>
+          <div style="height:6px"></div>
+          <div class="hero-sub"></div>
+        </div>
+
+        <div class="section-card">
+          <div class="section-header">
+            <div class="section-num">1</div>
+            <div class="section-name">Data penanggungjawab</div>
+          </div>
+          <div class="section-body">
+            <div class="field-row">
+              <div class="field">
+                <div class="field-label">Nama penanggungjawab *</div>
+                <div class="field-input"></div>
+              </div>
+              <div class="field">
+                <div class="field-label">Nomor telepon *</div>
+                <div class="field-input"></div>
+              </div>
+            </div>
+            <div class="field">
+              <div class="field-label">Email *</div>
+              <div class="field-input full"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-card">
+          <div class="section-header">
+            <div class="section-num">2</div>
+            <div class="section-name">Data kegiatan</div>
+          </div>
+          <div class="section-body">
+            <div class="field">
+              <div class="field-label">Nama kegiatan (lengkap) *</div>
+              <div class="field-input full"></div>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <div class="field-label">Lokasi kegiatan *</div>
+                <div class="field-input"></div>
+              </div>
+              <div class="field">
+                <div class="field-label">Tanggal kegiatan *</div>
+                <div class="field-input"></div>
+              </div>
+            </div>
+            <div class="field">
+              <div class="field-label">Punya SKP PPNI? *</div>
+              <div class="radio-row">
+                <div class="radio-opt"><div class="radio-circle"></div><div class="radio-label">Tidak</div></div>
+                <div class="radio-opt"><div class="radio-circle selected"></div><div class="radio-label">Ya</div></div>
+              </div>
+            </div>
+            <div class="conditional">
+              <div class="conditional-label">&#9432; Muncul jika SKP PPNI = Ya</div>
+              <table class="skp-table">
+                <thead>
+                  <tr>
+                    <th>Jenis kepesertaan</th>
+                    <th style="width:90px">Poin SKP</th>
+                    <th style="width:32px"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><div class="skp-input"></div></td>
+                    <td><div class="skp-input"></div></td>
+                    <td style="text-align:center;color:#aaa;font-size:13px">&#128465;</td>
+                  </tr>
+                  <tr>
+                    <td><div class="skp-input"></div></td>
+                    <td><div class="skp-input"></div></td>
+                    <td style="text-align:center;color:#aaa;font-size:13px">&#128465;</td>
+                  </tr>
+                  <tr>
+                    <td><div class="skp-input"></div></td>
+                    <td><div class="skp-input"></div></td>
+                    <td style="text-align:center;color:#aaa;font-size:13px">&#128465;</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="add-row">+ Tambah jenis kepesertaan</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-card">
+          <div class="section-header">
+            <div class="section-num">3</div>
+            <div class="section-name">Unggah desain dan data</div>
+          </div>
+          <div class="section-body">
+            <div class="field-row">
+              <div class="field">
+                <div class="field-label">Bahasa sertifikat *</div>
+                <div class="radio-row">
+                  <div class="radio-opt"><div class="radio-circle selected"></div><div class="radio-label">Indonesia</div></div>
+                  <div class="radio-opt"><div class="radio-circle"></div><div class="radio-label">Inggris</div></div>
+                </div>
+              </div>
+              <div class="field">
+                <div class="field-label">Muka desain *</div>
+                <div class="radio-row">
+                  <div class="radio-opt"><div class="radio-circle selected"></div><div class="radio-label">1 muka</div></div>
+                  <div class="radio-opt"><div class="radio-circle"></div><div class="radio-label">2 muka</div></div>
+                </div>
+              </div>
+            </div>
+            <div class="field">
+              <div class="field-label">Unggah desain muka 1 *</div>
+              <div class="upload-box"><span class="upload-icon">&#8679;</span><div class="upload-text">PNG / PDF, maks. 10MB</div></div>
+            </div>
+            <div class="conditional">
+              <div class="conditional-label">&#9432; Muncul jika muka desain = 2 muka</div>
+              <div class="field" style="margin-top:6px">
+                <div class="field-label">Unggah desain muka 2 *</div>
+                <div class="upload-box"><span class="upload-icon">&#8679;</span><div class="upload-text">PNG / PDF, maks. 10MB</div></div>
+              </div>
+            </div>
+            <div class="field">
+              <div class="field-label">Unggah data penerima *</div>
+              <div class="upload-box"><span class="upload-icon">&#128196;</span><div class="upload-text">Excel (.xlsx), maks. 5MB</div></div>
+              <div class="note">Gunakan template Excel yang disediakan. Kolom: No, Nama Peserta, Institusi Peserta, Poin SKP, Kepesertaan.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-card">
+          <div class="section-header">
+            <div class="section-num">4</div>
+            <div class="section-name">Unggah dokumen</div>
+          </div>
+          <div class="section-body">
+            <div class="field">
+              <div class="field-label">Surat permohonan *</div>
+              <div class="upload-box"><span class="upload-icon">&#128196;</span><div class="upload-text">PDF, maks. 5MB</div></div>
+            </div>
+            <div class="field">
+              <div class="field-label">Surat informasi kegiatan *</div>
+              <div class="upload-box"><span class="upload-icon">&#128196;</span><div class="upload-text">PDF, maks. 5MB</div></div>
+            </div>
+            <div class="btn-submit"><div class="btn-submit-text">Kirim pengajuan</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HALAMAN 2: CEK STATUS -->
+  <div class="page-section">
+    <div class="page-tag">Halaman 2 dari 4</div>
+    <div class="page-label">Cek Status Pengajuan</div>
+    <div class="page-url">/status</div>
+    <div class="screen">
+      <div class="topbar">
+        <div class="logo-box"></div>
+        <div class="topbar-nav"><div class="nav-item"></div><div class="nav-item"></div></div>
+      </div>
+      <div class="content">
+        <div class="status-box">
+          <div class="status-search">
+            <div class="status-input"></div>
+            <div class="status-btn"><div class="status-btn-text">Cek status</div></div>
+          </div>
+          <div class="note" style="margin-bottom:14px">Masukkan nomor referensi yang diterima via email setelah pengajuan berhasil dikirim.</div>
+          <div class="status-result">
+            <div class="status-result-header">
+              <div style="display:flex;justify-content:space-between;align-items:center">
+                <div style="font-size:12px;font-weight:600;color:#1a1a1a;font-family:monospace">REF-2026-00123</div>
+                <div class="badge badge-warning">Menunggu review</div>
+              </div>
+            </div>
+            <div class="status-row">
+              <div class="status-key">Nama kegiatan</div>
+              <div class="status-val">Seminar Nasional Keperawatan 2026</div>
+            </div>
+            <div class="status-row">
+              <div class="status-key">Tanggal kegiatan</div>
+              <div class="status-val">20 Juni 2026</div>
+            </div>
+            <div class="status-row">
+              <div class="status-key">Penanggungjawab</div>
+              <div class="status-val">Dr. Siti Aminah</div>
+            </div>
+            <div class="status-row">
+              <div class="status-key">Tanggal pengajuan</div>
+              <div class="status-val">25 Juni 2026</div>
+            </div>
+            <div class="divider" style="margin:0"></div>
+            <div class="timeline">
+              <div class="timeline-item"><div class="tl-dot done"></div><div class="tl-text">Pengajuan diterima</div></div>
+              <div class="timeline-item"><div class="tl-dot active"></div><div class="tl-text active">Menunggu review admin</div></div>
+              <div class="timeline-item"><div class="tl-dot pending"></div><div class="tl-text">Disetujui / Ditolak</div></div>
+              <div class="timeline-item"><div class="tl-dot pending"></div><div class="tl-text">Sertifikat diterbitkan</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HALAMAN 3: UNDUH SERTIFIKAT -->
+  <div class="page-section">
+    <div class="page-tag">Halaman 3 dari 4</div>
+    <div class="page-label">Unduh Sertifikat</div>
+    <div class="page-url">/unduh</div>
+    <div class="screen">
+      <div class="topbar">
+        <div class="logo-box"></div>
+        <div class="topbar-nav"><div class="nav-item"></div><div class="nav-item"></div></div>
+      </div>
+      <div class="content">
+        <div class="unduh-box">
+          <div class="status-search">
+            <div class="status-input"></div>
+            <div class="status-btn"><div class="status-btn-text">Cari sertifikat</div></div>
+          </div>
+          <div class="note" style="margin-bottom:14px">Masukkan nomor sertifikat yang diberikan oleh penyelenggara kegiatan.</div>
+          <div class="cert-card">
+            <div class="cert-card-header">
+              <div class="cert-card-header-text">Sertifikat ditemukan</div>
+              <div class="cert-card-sub">SERT-12/UN2.F12.D/PPM.00.02/2026</div>
+            </div>
+            <div class="cert-card-body">
+              <div class="cert-row"><div class="cert-key">Nama peserta</div><div class="cert-val">Dr. Budi Santoso, S.Kep</div></div>
+              <div class="cert-row"><div class="cert-key">Nama kegiatan</div><div class="cert-val">Seminar Nasional Keperawatan 2026</div></div>
+              <div class="cert-row"><div class="cert-key">Tanggal kegiatan</div><div class="cert-val">20 Juni 2026</div></div>
+              <div class="cert-row"><div class="cert-key">Kepesertaan</div><div class="cert-val">Peserta</div></div>
+              <div class="cert-row"><div class="cert-key">Poin SKP</div><div class="cert-val">4 SKP</div></div>
+              <div class="btn-download">
+                <span style="color:#fff;font-size:16px">&#8681;</span>
+                <div class="btn-download-text">Unduh sertifikat (PDF)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HALAMAN 4: VERIFIKASI -->
+  <div class="page-section">
+    <div class="page-tag">Halaman 4 dari 4</div>
+    <div class="page-label">Verifikasi Keaslian Sertifikat</div>
+    <div class="page-url">/verifikasi</div>
+    <div class="screen">
+      <div class="topbar">
+        <div class="logo-box"></div>
+        <div class="topbar-nav"><div class="nav-item"></div><div class="nav-item"></div></div>
+      </div>
+      <div class="content">
+        <div class="verify-box">
+          <div class="verify-tabs">
+            <div class="verify-tab active">&#9000; Input kode</div>
+            <div class="verify-tab inactive">&#9641; Scan QR code</div>
+          </div>
+          <div class="status-search">
+            <div class="status-input"></div>
+            <div class="status-btn"><div class="status-btn-text">Verifikasi</div></div>
+          </div>
+          <div class="note">Masukkan validity code yang tertera pada sertifikat, atau scan QR code menggunakan kamera.</div>
+          <div class="verify-result">
+            <div class="verify-result-header">
+              <span class="verify-icon">&#10004;</span>
+              <div class="verify-title">Sertifikat valid</div>
+            </div>
+            <div class="verify-detail-row"><div class="verify-detail-key">Nama pemegang</div><div class="verify-detail-val">Dr. Budi Santoso, S.Kep</div></div>
+            <div class="verify-detail-row"><div class="verify-detail-key">Kegiatan</div><div class="verify-detail-val">Seminar Nasional Keperawatan 2026</div></div>
+            <div class="verify-detail-row"><div class="verify-detail-key">Tanggal terbit</div><div class="verify-detail-val">25 Juni 2026</div></div>
+            <div class="verify-detail-row"><div class="verify-detail-key">Diterbitkan oleh</div><div class="verify-detail-val">FIK Universitas Indonesia</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">FIK UI — Website Sertifikat Online &nbsp;|&nbsp; Wireframe Halaman Publik &nbsp;|&nbsp; Juni 2026</div>
+</div>
+</body>
+</html>
