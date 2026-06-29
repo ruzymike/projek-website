@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -10 1240 940" width="1240" height="940" font-family="Virgil, Segoe UI Emoji, sans-serif">
+<defs>
+  <marker id="arrowhead-end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#1e1e1e"/>
+  </marker>
+  <marker id="arrowhead-start" markerWidth="10" markerHeight="10" refX="1" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M9,0 L9,6 L0,3 z" fill="#1e1e1e"/>
+  </marker>
+</defs>
+<rect x="10" y="-10" width="1240" height="940" fill="#ffffff"/>
+<text x="380" y="44" text-anchor="start" font-size="24" fill="#1e1e1e" font-weight="600" opacity="1.0">Wireframe — Admin Dashboard &amp; Detail Review</text>
+<text x="60" y="90" text-anchor="start" font-size="20" fill="#1971c2" font-weight="600" opacity="1.0">1. Dashboard Admin (/)</text>
+<rect x="40" y="100" width="580" height="800" rx="8" ry="8" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<rect x="40" y="100" width="580" height="40" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<text x="60" y="124" text-anchor="start" font-size="14" fill="#ffffff" font-weight="600" opacity="1.0">FIK UI Admin — Dashboard</text>
+<text x="500" y="122" text-anchor="start" font-size="12" fill="#ffffff" font-weight="600" opacity="1.0">Admin | Logout</text>
+<rect x="40" y="140" width="140" height="760" rx="8" ry="8" fill="#343a40" stroke="#343a40" stroke-width="1"  opacity="1.0"/>
+<rect x="45" y="160" width="130" height="35" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<text x="55" y="182.0" text-anchor="start" font-size="12" fill="#ffffff" opacity="1.0"><tspan x="55" y="182.0">Dashboard</tspan></text>
+<rect x="45" y="205" width="130" height="35" rx="8" ry="8" fill="#343a40" stroke="#343a40" stroke-width="1"  opacity="1.0"/>
+<text x="55" y="227.0" text-anchor="start" font-size="12" fill="#ffffff" opacity="1.0"><tspan x="55" y="227.0">Pengajuan</tspan></text>
+<rect x="45" y="250" width="130" height="35" rx="8" ry="8" fill="#343a40" stroke="#343a40" stroke-width="1"  opacity="1.0"/>
+<text x="55" y="272.0" text-anchor="start" font-size="12" fill="#ffffff" opacity="1.0"><tspan x="55" y="272.0">Template</tspan></text>
+<rect x="45" y="295" width="130" height="35" rx="8" ry="8" fill="#343a40" stroke="#343a40" stroke-width="1"  opacity="1.0"/>
+<text x="55" y="317.0" text-anchor="start" font-size="12" fill="#ffffff" opacity="1.0"><tspan x="55" y="317.0">Sertifikat</tspan></text>
+<rect x="45" y="340" width="130" height="35" rx="8" ry="8" fill="#343a40" stroke="#343a40" stroke-width="1"  opacity="1.0"/>
+<text x="55" y="362.0" text-anchor="start" font-size="12" fill="#ffffff" opacity="1.0"><tspan x="55" y="362.0">User Admin</tspan></text>
+<rect x="45" y="385" width="130" height="35" rx="8" ry="8" fill="#343a40" stroke="#343a40" stroke-width="1"  opacity="1.0"/>
+<text x="55" y="407.0" text-anchor="start" font-size="12" fill="#ffffff" opacity="1.0"><tspan x="55" y="407.0">Pengaturan</tspan></text>
+<text x="200" y="178" text-anchor="start" font-size="18" fill="#1e1e1e" font-weight="600" opacity="1.0">Dashboard</text>
+<text x="200" y="197" text-anchor="start" font-size="12" fill="#868e96" font-weight="600" opacity="1.0">Ringkasan aktivitas penerbitan sertifikat</text>
+<rect x="200" y="220" width="95" height="80" rx="8" ry="8" fill="#ffffff" stroke="#1971c2" stroke-width="2"  opacity="1.0"/>
+<text x="208" y="248" text-anchor="start" font-size="20" fill="#1971c2" font-weight="600" opacity="1.0">12</text>
+<text x="208" y="268" text-anchor="start" font-size="10" fill="#495057" font-weight="600" opacity="1.0">Pengajuan
+Baru</text>
+<rect x="300" y="220" width="95" height="80" rx="8" ry="8" fill="#ffffff" stroke="#2f9e44" stroke-width="2"  opacity="1.0"/>
+<text x="308" y="248" text-anchor="start" font-size="20" fill="#2f9e44" font-weight="600" opacity="1.0">48</text>
+<text x="308" y="268" text-anchor="start" font-size="10" fill="#495057" font-weight="600" opacity="1.0">Disetujui
+Bulan Ini</text>
+<rect x="400" y="220" width="95" height="80" rx="8" ry="8" fill="#ffffff" stroke="#7048e8" stroke-width="2"  opacity="1.0"/>
+<text x="408" y="248" text-anchor="start" font-size="20" fill="#7048e8" font-weight="600" opacity="1.0">1,247</text>
+<text x="408" y="268" text-anchor="start" font-size="10" fill="#495057" font-weight="600" opacity="1.0">Sertifikat
+Terbit</text>
+<rect x="500" y="220" width="95" height="80" rx="8" ry="8" fill="#ffffff" stroke="#e8590c" stroke-width="2"  opacity="1.0"/>
+<text x="508" y="248" text-anchor="start" font-size="20" fill="#e8590c" font-weight="600" opacity="1.0">3</text>
+<text x="508" y="268" text-anchor="start" font-size="10" fill="#495057" font-weight="600" opacity="1.0">Menunggu
+Review</text>
+<text x="200" y="339" text-anchor="start" font-size="14" fill="#1e1e1e" font-weight="600" opacity="1.0">Pengajuan Terbaru</text>
+<rect x="200" y="350" width="400" height="28" rx="8" ry="8" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<text x="210" y="367.75" text-anchor="start" font-size="10" fill="#495057" opacity="1.0"><tspan x="210" y="367.75">ID | Acara | Pengaju | Tanggal | Status</tspan></text>
+<rect x="200" y="380" width="400" height="30" rx="8" ry="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<text x="208" y="399" text-anchor="start" font-size="11" fill="#1e1e1e" font-weight="600" opacity="1.0">#1042  Workshop Laravel  Andi  29/06</text>
+<rect x="495" y="385" width="80" height="24" rx="8" ry="8" fill="#e8590c" stroke="#e8590c" stroke-width="2"  opacity="1.0"/>
+<text x="505" y="401.125" text-anchor="start" font-size="11" fill="#ffffff" opacity="1.0"><tspan x="505" y="401.125">Menunggu</tspan></text>
+<rect x="200" y="412" width="400" height="30" rx="8" ry="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<text x="208" y="431" text-anchor="start" font-size="11" fill="#1e1e1e" font-weight="600" opacity="1.0">#1041  Seminar AI  Budi  28/06</text>
+<rect x="495" y="417" width="87" height="24" rx="8" ry="8" fill="#2f9e44" stroke="#2f9e44" stroke-width="2"  opacity="1.0"/>
+<text x="505" y="433.125" text-anchor="start" font-size="11" fill="#ffffff" opacity="1.0"><tspan x="505" y="433.125">Disetujui</tspan></text>
+<rect x="200" y="444" width="400" height="30" rx="8" ry="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<text x="208" y="463" text-anchor="start" font-size="11" fill="#1e1e1e" font-weight="600" opacity="1.0">#1040  Hackathon  Citra  28/06</text>
+<rect x="495" y="449" width="73" height="24" rx="8" ry="8" fill="#c92a2a" stroke="#c92a2a" stroke-width="2"  opacity="1.0"/>
+<text x="505" y="465.125" text-anchor="start" font-size="11" fill="#ffffff" opacity="1.0"><tspan x="505" y="465.125">Ditolak</tspan></text>
+<rect x="200" y="476" width="400" height="30" rx="8" ry="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<text x="208" y="495" text-anchor="start" font-size="11" fill="#1e1e1e" font-weight="600" opacity="1.0">#1039  Pelatihan SKP  Dewi  27/06</text>
+<rect x="495" y="481" width="87" height="24" rx="8" ry="8" fill="#2f9e44" stroke="#2f9e44" stroke-width="2"  opacity="1.0"/>
+<text x="505" y="497.125" text-anchor="start" font-size="11" fill="#ffffff" opacity="1.0"><tspan x="505" y="497.125">Disetujui</tspan></text>
+<rect x="200" y="508" width="400" height="30" rx="8" ry="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<text x="208" y="527" text-anchor="start" font-size="11" fill="#1e1e1e" font-weight="600" opacity="1.0">#1038  Webinar  Eka  27/06</text>
+<rect x="495" y="513" width="80" height="24" rx="8" ry="8" fill="#e8590c" stroke="#e8590c" stroke-width="2"  opacity="1.0"/>
+<text x="505" y="529.125" text-anchor="start" font-size="11" fill="#ffffff" opacity="1.0"><tspan x="505" y="529.125">Menunggu</tspan></text>
+<text x="200" y="574" text-anchor="start" font-size="14" fill="#1e1e1e" font-weight="600" opacity="1.0">Statistik Bulanan</text>
+<rect x="200" y="585" width="400" height="180" rx="8" ry="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<text x="210" y="611" text-anchor="start" font-size="11" fill="#868e96" font-weight="600" opacity="1.0">Sertifikat Diterbitkan (per bulan)</text>
+<rect x="220" y="736.0" width="22" height="24.0" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<rect x="250" y="724.0" width="22" height="36.0" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<rect x="280" y="742.0" width="22" height="18.0" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<rect x="310" y="712.0" width="22" height="48.0" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<rect x="340" y="698.0" width="22" height="62.0" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<rect x="370" y="720.0" width="22" height="40.0" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<rect x="400" y="704.0" width="22" height="56.0" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<rect x="430" y="688.0" width="22" height="72.0" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<rect x="460" y="702.0" width="22" height="58.0" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<rect x="490" y="678.0" width="22" height="82.0" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<rect x="520" y="690.0" width="22" height="70.0" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<rect x="550" y="676.0" width="22" height="84.0" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<text x="210" y="770" text-anchor="start" font-size="10" fill="#868e96" font-weight="600" opacity="1.0">Jan Feb Mar Apr Mei Jun Jul Agt Sep Okt Nov Des</text>
+<text x="200" y="804" text-anchor="start" font-size="14" fill="#1e1e1e" font-weight="600" opacity="1.0">Quick Actions</text>
+<rect x="200" y="815" width="100" height="28" rx="8" ry="8" fill="#2f9e44" stroke="#2b8a3e" stroke-width="2"  opacity="1.0"/>
+<text x="210" y="833.875" text-anchor="start" font-size="13" fill="#ffffff" opacity="1.0"><tspan x="210" y="833.875">+ Pengajuan</tspan></text>
+<rect x="310" y="815" width="100" height="28" rx="8" ry="8" fill="#1971c2" stroke="#1864ab" stroke-width="2"  opacity="1.0"/>
+<text x="320" y="833.875" text-anchor="start" font-size="13" fill="#ffffff" opacity="1.0"><tspan x="320" y="833.875">Template</tspan></text>
+<rect x="420" y="815" width="100" height="28" rx="8" ry="8" fill="#868e96" stroke="#6c757d" stroke-width="2"  opacity="1.0"/>
+<text x="430" y="833.875" text-anchor="start" font-size="13" fill="#ffffff" opacity="1.0"><tspan x="430" y="833.875">User</tspan></text>
+<text x="660" y="90" text-anchor="start" font-size="20" fill="#e8590c" font-weight="600" opacity="1.0">2. Detail Review (/admin/pengajuan/1042)</text>
+<rect x="640" y="100" width="580" height="800" rx="8" ry="8" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<rect x="640" y="100" width="580" height="40" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<text x="660" y="124" text-anchor="start" font-size="14" fill="#ffffff" font-weight="600" opacity="1.0">Detail Pengajuan #1042</text>
+<text x="660" y="180" text-anchor="start" font-size="20" fill="#1e1e1e" font-weight="600" opacity="1.0">Workshop Laravel 11 — 2026</text>
+<text x="660" y="200" text-anchor="start" font-size="12" fill="#868e96" font-weight="600" opacity="1.0">Diajukan oleh: Andi Setiawan (andi@fik.ui.ac.id)</text>
+<rect x="660" y="210" width="129" height="24" rx="8" ry="8" fill="#e8590c" stroke="#e8590c" stroke-width="2"  opacity="1.0"/>
+<text x="670" y="226.125" text-anchor="start" font-size="11" fill="#ffffff" opacity="1.0"><tspan x="670" y="226.125">MENUNGGU REVIEW</tspan></text>
+<text x="660" y="264" text-anchor="start" font-size="14" fill="#1971c2" font-weight="600" opacity="1.0">Informasi Acara</text>
+<rect x="660" y="275" width="540" height="130" rx="8" ry="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<text x="680" y="296" text-anchor="start" font-size="11" fill="#495057" font-weight="600" opacity="1.0">Tanggal:</text>
+<text x="800" y="296" text-anchor="start" font-size="11" fill="#1e1e1e" font-weight="600" opacity="1.0">15-17 Juli 2026</text>
+<text x="680" y="318" text-anchor="start" font-size="11" fill="#495057" font-weight="600" opacity="1.0">Lokasi:</text>
+<text x="800" y="318" text-anchor="start" font-size="11" fill="#1e1e1e" font-weight="600" opacity="1.0">Aula FIK UI Lt. 3</text>
+<text x="680" y="340" text-anchor="start" font-size="11" fill="#495057" font-weight="600" opacity="1.0">Jenis:</text>
+<text x="800" y="340" text-anchor="start" font-size="11" fill="#1e1e1e" font-weight="600" opacity="1.0">Pelatihan (dengan SKP)</text>
+<text x="680" y="362" text-anchor="start" font-size="11" fill="#495057" font-weight="600" opacity="1.0">Peserta:</text>
+<text x="800" y="362" text-anchor="start" font-size="11" fill="#1e1e1e" font-weight="600" opacity="1.0">150 orang</text>
+<text x="680" y="384" text-anchor="start" font-size="11" fill="#495057" font-weight="600" opacity="1.0">Penyelenggara:</text>
+<text x="800" y="384" text-anchor="start" font-size="11" fill="#1e1e1e" font-weight="600" opacity="1.0">Pusat Komputasi FIK UI</text>
+<text x="660" y="439" text-anchor="start" font-size="14" fill="#1971c2" font-weight="600" opacity="1.0">Pengaturan</text>
+<rect x="660" y="450" width="540" height="90" rx="8" ry="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<text x="680" y="477" text-anchor="start" font-size="12" fill="#1e1e1e" font-weight="600" opacity="1.0">SKP: 4 poin</text>
+<text x="680" y="497" text-anchor="start" font-size="12" fill="#1e1e1e" font-weight="600" opacity="1.0">QR Code: Aktif</text>
+<text x="680" y="517" text-anchor="start" font-size="12" fill="#1e1e1e" font-weight="600" opacity="1.0">TTD Digital: Dekan FIK</text>
+<text x="680" y="537" text-anchor="start" font-size="12" fill="#1e1e1e" font-weight="600" opacity="1.0">Email Otomatis: Aktif</text>
+<text x="660" y="574" text-anchor="start" font-size="14" fill="#1971c2" font-weight="600" opacity="1.0">Daftar Peserta (contoh 5 dari 150)</text>
+<rect x="660" y="585" width="540" height="130" rx="8" ry="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<text x="680" y="605" text-anchor="start" font-size="10" fill="#1e1e1e" font-weight="600" opacity="1.0">1. Andi Wijaya (2106123456) — andi@ui.ac.id</text>
+<text x="680" y="627" text-anchor="start" font-size="10" fill="#1e1e1e" font-weight="600" opacity="1.0">2. Budi Santoso (2106234567) — budi@ui.ac.id</text>
+<text x="680" y="649" text-anchor="start" font-size="10" fill="#1e1e1e" font-weight="600" opacity="1.0">3. Citra Dewi (2106345678) — citra@ui.ac.id</text>
+<text x="680" y="671" text-anchor="start" font-size="10" fill="#1e1e1e" font-weight="600" opacity="1.0">4. Dewi Lestari (2106456789) — dewi@ui.ac.id</text>
+<text x="680" y="693" text-anchor="start" font-size="10" fill="#1e1e1e" font-weight="600" opacity="1.0">5. Eko Prabowo (2106567890) — eko@ui.ac.id</text>
+<text x="660" y="744" text-anchor="start" font-size="14" fill="#1971c2" font-weight="600" opacity="1.0">Aksi</text>
+<rect x="660" y="755" width="130" height="36" rx="8" ry="8" fill="#2f9e44" stroke="#2b8a3e" stroke-width="2"  opacity="1.0"/>
+<text x="670" y="777.875" text-anchor="start" font-size="13" fill="#ffffff" opacity="1.0"><tspan x="670" y="777.875">Setujui</tspan></text>
+<rect x="800" y="755" width="130" height="36" rx="8" ry="8" fill="#c92a2a" stroke="#b61d1d" stroke-width="2"  opacity="1.0"/>
+<text x="810" y="777.875" text-anchor="start" font-size="13" fill="#ffffff" opacity="1.0"><tspan x="810" y="777.875">Tolak</tspan></text>
+<rect x="940" y="755" width="130" height="36" rx="8" ry="8" fill="#e8590c" stroke="#d9480f" stroke-width="2"  opacity="1.0"/>
+<text x="950" y="777.875" text-anchor="start" font-size="13" fill="#ffffff" opacity="1.0"><tspan x="950" y="777.875">Minta Revisi</tspan></text>
+<rect x="1080" y="755" width="130" height="36" rx="8" ry="8" fill="#868e96" stroke="#6c757d" stroke-width="2"  opacity="1.0"/>
+<text x="1090" y="777.875" text-anchor="start" font-size="13" fill="#ffffff" opacity="1.0"><tspan x="1090" y="777.875">Lihat Lampiran</tspan></text>
+<text x="660" y="817" text-anchor="start" font-size="12" fill="#495057" font-weight="600" opacity="1.0">Catatan Admin (opsional):</text>
+<rect x="660" y="825" width="540" height="60" rx="8" ry="8" fill="#ffffff" stroke="#adb5bd" stroke-width="1"  opacity="1.0"/>
+</svg>

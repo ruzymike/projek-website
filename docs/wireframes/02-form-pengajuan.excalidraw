@@ -1,0 +1,1139 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hermes-agent",
+  "elements": [
+    {
+      "type": "text",
+      "id": "tbzfqy2qr",
+      "x": 380,
+      "y": 20,
+      "text": "Wireframe \u2014 Form Pengajuan (4 Seksi)",
+      "fontSize": 24,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Wireframe \u2014 Form Pengajuan (4 Seksi)",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rapn4t1pg",
+      "x": 60,
+      "y": 70,
+      "width": 1080,
+      "height": 870,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#f8f9fa",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "r43ndsr1v",
+      "x": 60,
+      "y": 70,
+      "width": 1080,
+      "height": 40,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tsunbc74k",
+      "x": 80,
+      "y": 80,
+      "text": "FIK UI \u2014 Sistem Sertifikat Online",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "originalText": "FIK UI \u2014 Sistem Sertifikat Online",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "t5sd4v7yd",
+      "x": 900,
+      "y": 80,
+      "text": "Beranda | Status | Bantuan",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "originalText": "Beranda | Status | Bantuan",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rw26ltzg4",
+      "x": 100,
+      "y": 130,
+      "width": 1000,
+      "height": 60,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "ellipse",
+      "id": "e2bvngv8t",
+      "x": 160,
+      "y": 145,
+      "width": 30,
+      "height": 30,
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "ter28zb8v",
+      "x": 169,
+      "y": 151,
+      "text": "1",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "originalText": "1",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tdedxf3dt",
+      "x": 140,
+      "y": 178,
+      "text": "1. Data\nAcara",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "1. Data\nAcara",
+      "autoResize": true
+    },
+    {
+      "type": "line",
+      "id": "lpba69e09",
+      "x": 190,
+      "y": 160,
+      "width": 100,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 2
+    },
+    {
+      "type": "ellipse",
+      "id": "e65mzr7z4",
+      "x": 290,
+      "y": 145,
+      "width": 30,
+      "height": 30,
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "t4nzdh7oy",
+      "x": 299,
+      "y": 151,
+      "text": "2",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "2",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tujv6lmgg",
+      "x": 270,
+      "y": 178,
+      "text": "2. Data\nPeserta",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "2. Data\nPeserta",
+      "autoResize": true
+    },
+    {
+      "type": "line",
+      "id": "l3z8y8hgh",
+      "x": 320,
+      "y": 160,
+      "width": 100,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 2
+    },
+    {
+      "type": "ellipse",
+      "id": "en9iqcatw",
+      "x": 420,
+      "y": 145,
+      "width": 30,
+      "height": 30,
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "ts648uje1",
+      "x": 429,
+      "y": 151,
+      "text": "3",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "3",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tfazewhpa",
+      "x": 400,
+      "y": 178,
+      "text": "3. Pengaturan",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "3. Pengaturan",
+      "autoResize": true
+    },
+    {
+      "type": "line",
+      "id": "lnljeuyhb",
+      "x": 450,
+      "y": 160,
+      "width": 100,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          0
+        ]
+      ],
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 2
+    },
+    {
+      "type": "ellipse",
+      "id": "ejzjxczfi",
+      "x": 550,
+      "y": 145,
+      "width": 30,
+      "height": 30,
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "t0rxkykrp",
+      "x": 559,
+      "y": 151,
+      "text": "4",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "4",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "t61t4v0su",
+      "x": 530,
+      "y": 178,
+      "text": "4. Review &\nSubmit",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "4. Review &\nSubmit",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "th7x3vad5",
+      "x": 100,
+      "y": 220,
+      "text": "Seksi 1: Data Acara",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1971c2",
+      "originalText": "Seksi 1: Data Acara",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rz66i9v0s",
+      "x": 100,
+      "y": 245,
+      "width": 1000,
+      "height": 180,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "rjrqkmpjf",
+      "x": 130,
+      "y": 280,
+      "width": 280,
+      "height": 38,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "t2mn2zql2",
+      "x": 130,
+      "y": 260,
+      "text": "Nama Acara *",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Nama Acara *",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tiqn9ivsb",
+      "x": 140,
+      "y": 291.0,
+      "text": "Contoh: Workshop Laravel 11",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#adb5bd",
+      "originalText": "Contoh: Workshop Laravel 11",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rg52hg7vz",
+      "x": 440,
+      "y": 280,
+      "width": 280,
+      "height": 38,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "t6jr6gj54",
+      "x": 440,
+      "y": 260,
+      "text": "Jenis Acara *",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Jenis Acara *",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tse3l1jfy",
+      "x": 450,
+      "y": 291.0,
+      "text": "Pilih jenis...",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#adb5bd",
+      "originalText": "Pilih jenis...",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "ronpqqxdy",
+      "x": 760,
+      "y": 280,
+      "width": 280,
+      "height": 38,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tr3kyhzyt",
+      "x": 760,
+      "y": 260,
+      "text": "Tanggal Mulai *",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Tanggal Mulai *",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tr8mclb64",
+      "x": 770,
+      "y": 291.0,
+      "text": "DD/MM/YYYY",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#adb5bd",
+      "originalText": "DD/MM/YYYY",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rgwh4ocwd",
+      "x": 130,
+      "y": 360,
+      "width": 280,
+      "height": 38,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "t67wi1bdk",
+      "x": 130,
+      "y": 340,
+      "text": "Tanggal Selesai *",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Tanggal Selesai *",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tc5y3xikv",
+      "x": 140,
+      "y": 371.0,
+      "text": "DD/MM/YYYY",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#adb5bd",
+      "originalText": "DD/MM/YYYY",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r2wl2ow4x",
+      "x": 440,
+      "y": 360,
+      "width": 280,
+      "height": 38,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tqvhp3ra3",
+      "x": 440,
+      "y": 340,
+      "text": "Lokasi / Platform *",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Lokasi / Platform *",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tfbu1epqe",
+      "x": 450,
+      "y": 371.0,
+      "text": "Online / Offline",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#adb5bd",
+      "originalText": "Online / Offline",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rwjyssi1a",
+      "x": 760,
+      "y": 360,
+      "width": 280,
+      "height": 38,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tlddascep",
+      "x": 760,
+      "y": 340,
+      "text": "Penyelenggara",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Penyelenggara",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tyhxu739m",
+      "x": 770,
+      "y": 371.0,
+      "text": "Fakultas/Unit...",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#adb5bd",
+      "originalText": "Fakultas/Unit...",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "t5lkpa0dw",
+      "x": 100,
+      "y": 445,
+      "text": "Seksi 2: Data Peserta",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1971c2",
+      "originalText": "Seksi 2: Data Peserta",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rcpj8kmle",
+      "x": 100,
+      "y": 470,
+      "width": 1000,
+      "height": 170,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "txkjlm2he",
+      "x": 130,
+      "y": 485,
+      "text": "Sumber Data Peserta:",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Sumber Data Peserta:",
+      "autoResize": true
+    },
+    {
+      "type": "ellipse",
+      "id": "elukdm86q",
+      "x": 130,
+      "y": 510,
+      "width": 14,
+      "height": 14,
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#495057",
+      "strokeWidth": 1
+    },
+    {
+      "type": "ellipse",
+      "id": "epgyzjwdl",
+      "x": 134,
+      "y": 514,
+      "width": 6,
+      "height": 6,
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tk2wsptrj",
+      "x": 150,
+      "y": 508,
+      "text": "Upload CSV/Excel",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Upload CSV/Excel",
+      "autoResize": true
+    },
+    {
+      "type": "ellipse",
+      "id": "e32no7a1g",
+      "x": 310,
+      "y": 510,
+      "width": 14,
+      "height": 14,
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#495057",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tgmwlss7u",
+      "x": 330,
+      "y": 508,
+      "text": "Input Manual",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Input Manual",
+      "autoResize": true
+    },
+    {
+      "type": "ellipse",
+      "id": "ejwuk0a95",
+      "x": 450,
+      "y": 510,
+      "width": 14,
+      "height": 14,
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#495057",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tcze9q0jx",
+      "x": 470,
+      "y": 508,
+      "text": "Import dari sistem lain",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Import dari sistem lain",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rb2jgpsbg",
+      "x": 130,
+      "y": 555,
+      "width": 600,
+      "height": 65,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#f8f9fa",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed"
+    },
+    {
+      "type": "text",
+      "id": "tntze3m9n",
+      "x": 150,
+      "y": 572,
+      "text": "Drop file CSV/Excel di sini atau klik untuk pilih",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#1971c2",
+      "originalText": "Drop file CSV/Excel di sini atau klik untuk pilih",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tqmc7v1fr",
+      "x": 150,
+      "y": 590,
+      "text": "Format: nama, email, nim/nip (header di baris pertama)",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#868e96",
+      "originalText": "Format: nama, email, nim/nip (header di baris pertama)",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rkjowqz9v",
+      "x": 750,
+      "y": 555,
+      "width": 320,
+      "height": 65,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#d3f9d8",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "t288m4za3",
+      "x": 770,
+      "y": 568,
+      "text": "\u2713 peserta-workshop-2026.csv",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#2b8a3e",
+      "originalText": "\u2713 peserta-workshop-2026.csv",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "t66m03qwn",
+      "x": 770,
+      "y": 588,
+      "text": "150 baris terdeteksi",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#2b8a3e",
+      "originalText": "150 baris terdeteksi",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "t7sipvnlw",
+      "x": 100,
+      "y": 660,
+      "text": "Seksi 3: Pengaturan Sertifikat",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1971c2",
+      "originalText": "Seksi 3: Pengaturan Sertifikat",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rlrdlerln",
+      "x": 100,
+      "y": 685,
+      "width": 1000,
+      "height": 130,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tb9havbu6",
+      "x": 130,
+      "y": 700,
+      "text": "Opsi Tambahan:",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Opsi Tambahan:",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rcr4iecz1",
+      "x": 130,
+      "y": 725,
+      "width": 14,
+      "height": 14,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#495057",
+      "strokeWidth": 1
+    },
+    {
+      "type": "line",
+      "id": "lpm9i23q2",
+      "x": 132,
+      "y": 732.0,
+      "width": 10,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "tl60w4y5m",
+      "x": 150,
+      "y": 723,
+      "text": "Aktifkan SKP (Satuan Kredit Profesi)",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Aktifkan SKP (Satuan Kredit Profesi)",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rn8pl3mpu",
+      "x": 130,
+      "y": 752,
+      "width": 14,
+      "height": 14,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#495057",
+      "strokeWidth": 1
+    },
+    {
+      "type": "line",
+      "id": "ld4wbdkp2",
+      "x": 132,
+      "y": 759.0,
+      "width": 10,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "t200sdm0a",
+      "x": 150,
+      "y": 750,
+      "text": "Aktifkan QR Code Verifikasi",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Aktifkan QR Code Verifikasi",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "riallrgte",
+      "x": 450,
+      "y": 725,
+      "width": 14,
+      "height": 14,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#495057",
+      "strokeWidth": 1
+    },
+    {
+      "type": "line",
+      "id": "l24o5xuwq",
+      "x": 452,
+      "y": 732.0,
+      "width": 10,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "te6i5ntwm",
+      "x": 470,
+      "y": 723,
+      "text": "Tanda tangan digital (TTD Dekan/Kaprodi)",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Tanda tangan digital (TTD Dekan/Kaprodi)",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r94nm57me",
+      "x": 450,
+      "y": 752,
+      "width": 14,
+      "height": 14,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#495057",
+      "strokeWidth": 1
+    },
+    {
+      "type": "line",
+      "id": "ltqpvauyt",
+      "x": 452,
+      "y": 759.0,
+      "width": 10,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "tau7ysnhq",
+      "x": 470,
+      "y": 750,
+      "text": "Kirim email otomatis ke peserta",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Kirim email otomatis ke peserta",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r8fwsdijd",
+      "x": 760,
+      "y": 715,
+      "width": 310,
+      "height": 38,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#868e96",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "td3lyrsqb",
+      "x": 760,
+      "y": 695,
+      "text": "Jumlah SKP",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Jumlah SKP",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tce3z8yiu",
+      "x": 770,
+      "y": 726.0,
+      "text": "4",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "4",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "txko2hb6m",
+      "x": 100,
+      "y": 835,
+      "text": "Seksi 4: Review & Submit",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1971c2",
+      "originalText": "Seksi 4: Review & Submit",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tv9hjmkra",
+      "x": 100,
+      "y": 860,
+      "text": "Data akan ditampilkan di sini sebelum submit final",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#868e96",
+      "originalText": "Data akan ditampilkan di sini sebelum submit final",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r39honzo5",
+      "x": 60,
+      "y": 910,
+      "width": 1080,
+      "height": 30,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#f1f3f5",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "r8jevcoh3",
+      "x": 820,
+      "y": 915,
+      "width": 140,
+      "height": 22,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_r8jevcoh3",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_r8jevcoh3",
+      "x": 830,
+      "y": 923,
+      "width": 120,
+      "height": 14,
+      "text": "Kembali",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "r8jevcoh3",
+      "originalText": "Kembali",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rogi3e1ba",
+      "x": 980,
+      "y": 915,
+      "width": 150,
+      "height": 22,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#2f9e44",
+      "fillStyle": "solid",
+      "strokeColor": "#2b8a3e",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_rogi3e1ba",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rogi3e1ba",
+      "x": 990,
+      "y": 923,
+      "width": 130,
+      "height": 14,
+      "text": "Submit Pengajuan",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rogi3e1ba",
+      "originalText": "Submit Pengajuan",
+      "autoResize": true
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}

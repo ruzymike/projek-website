@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 -10 1140 980" width="1140" height="980" font-family="Virgil, Segoe UI Emoji, sans-serif">
+<defs>
+  <marker id="arrowhead-end" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#1e1e1e"/>
+  </marker>
+  <marker id="arrowhead-start" markerWidth="10" markerHeight="10" refX="1" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M9,0 L9,6 L0,3 z" fill="#1e1e1e"/>
+  </marker>
+</defs>
+<rect x="30" y="-10" width="1140" height="980" fill="#ffffff"/>
+<text x="380" y="44" text-anchor="start" font-size="24" fill="#1e1e1e" font-weight="600" opacity="1.0">Wireframe — Form Pengajuan (4 Seksi)</text>
+<rect x="60" y="70" width="1080" height="870" rx="8" ry="8" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<rect x="60" y="70" width="1080" height="40" rx="8" ry="8" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<text x="80" y="94" text-anchor="start" font-size="14" fill="#ffffff" font-weight="600" opacity="1.0">FIK UI — Sistem Sertifikat Online</text>
+<text x="900" y="92" text-anchor="start" font-size="12" fill="#ffffff" font-weight="600" opacity="1.0">Beranda | Status | Bantuan</text>
+<rect x="100" y="130" width="1000" height="60" rx="8" ry="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<ellipse cx="175.0" cy="160.0" rx="15.0" ry="15.0" fill="#1971c2" stroke="#1971c2" stroke-width="2"  opacity="1.0"/>
+<text x="169" y="165" text-anchor="start" font-size="14" fill="#ffffff" font-weight="600" opacity="1.0">1</text>
+<text x="140" y="189" text-anchor="start" font-size="11" fill="#495057" font-weight="600" opacity="1.0">1. Data
+Acara</text>
+<path d="M 190 160 L 290 160" fill="none" stroke="#adb5bd" stroke-width="2"  opacity="1.0"/>
+<ellipse cx="305.0" cy="160.0" rx="15.0" ry="15.0" fill="#ffffff" stroke="#adb5bd" stroke-width="2"  opacity="1.0"/>
+<text x="299" y="165" text-anchor="start" font-size="14" fill="#495057" font-weight="600" opacity="1.0">2</text>
+<text x="270" y="189" text-anchor="start" font-size="11" fill="#495057" font-weight="600" opacity="1.0">2. Data
+Peserta</text>
+<path d="M 320 160 L 420 160" fill="none" stroke="#adb5bd" stroke-width="2"  opacity="1.0"/>
+<ellipse cx="435.0" cy="160.0" rx="15.0" ry="15.0" fill="#ffffff" stroke="#adb5bd" stroke-width="2"  opacity="1.0"/>
+<text x="429" y="165" text-anchor="start" font-size="14" fill="#495057" font-weight="600" opacity="1.0">3</text>
+<text x="400" y="189" text-anchor="start" font-size="11" fill="#495057" font-weight="600" opacity="1.0">3. Pengaturan</text>
+<path d="M 450 160 L 550 160" fill="none" stroke="#adb5bd" stroke-width="2"  opacity="1.0"/>
+<ellipse cx="565.0" cy="160.0" rx="15.0" ry="15.0" fill="#ffffff" stroke="#adb5bd" stroke-width="2"  opacity="1.0"/>
+<text x="559" y="165" text-anchor="start" font-size="14" fill="#495057" font-weight="600" opacity="1.0">4</text>
+<text x="530" y="189" text-anchor="start" font-size="11" fill="#495057" font-weight="600" opacity="1.0">4. Review &amp;
+Submit</text>
+<text x="100" y="238" text-anchor="start" font-size="18" fill="#1971c2" font-weight="600" opacity="1.0">Seksi 1: Data Acara</text>
+<rect x="100" y="245" width="1000" height="180" rx="8" ry="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<rect x="130" y="280" width="280" height="38" rx="8" ry="8" fill="#ffffff" stroke="#868e96" stroke-width="1"  opacity="1.0"/>
+<text x="130" y="272" text-anchor="start" font-size="12" fill="#495057" font-weight="600" opacity="1.0">Nama Acara *</text>
+<text x="140" y="303.0" text-anchor="start" font-size="12" fill="#adb5bd" font-weight="600" opacity="1.0">Contoh: Workshop Laravel 11</text>
+<rect x="440" y="280" width="280" height="38" rx="8" ry="8" fill="#ffffff" stroke="#868e96" stroke-width="1"  opacity="1.0"/>
+<text x="440" y="272" text-anchor="start" font-size="12" fill="#495057" font-weight="600" opacity="1.0">Jenis Acara *</text>
+<text x="450" y="303.0" text-anchor="start" font-size="12" fill="#adb5bd" font-weight="600" opacity="1.0">Pilih jenis...</text>
+<rect x="760" y="280" width="280" height="38" rx="8" ry="8" fill="#ffffff" stroke="#868e96" stroke-width="1"  opacity="1.0"/>
+<text x="760" y="272" text-anchor="start" font-size="12" fill="#495057" font-weight="600" opacity="1.0">Tanggal Mulai *</text>
+<text x="770" y="303.0" text-anchor="start" font-size="12" fill="#adb5bd" font-weight="600" opacity="1.0">DD/MM/YYYY</text>
+<rect x="130" y="360" width="280" height="38" rx="8" ry="8" fill="#ffffff" stroke="#868e96" stroke-width="1"  opacity="1.0"/>
+<text x="130" y="352" text-anchor="start" font-size="12" fill="#495057" font-weight="600" opacity="1.0">Tanggal Selesai *</text>
+<text x="140" y="383.0" text-anchor="start" font-size="12" fill="#adb5bd" font-weight="600" opacity="1.0">DD/MM/YYYY</text>
+<rect x="440" y="360" width="280" height="38" rx="8" ry="8" fill="#ffffff" stroke="#868e96" stroke-width="1"  opacity="1.0"/>
+<text x="440" y="352" text-anchor="start" font-size="12" fill="#495057" font-weight="600" opacity="1.0">Lokasi / Platform *</text>
+<text x="450" y="383.0" text-anchor="start" font-size="12" fill="#adb5bd" font-weight="600" opacity="1.0">Online / Offline</text>
+<rect x="760" y="360" width="280" height="38" rx="8" ry="8" fill="#ffffff" stroke="#868e96" stroke-width="1"  opacity="1.0"/>
+<text x="760" y="352" text-anchor="start" font-size="12" fill="#495057" font-weight="600" opacity="1.0">Penyelenggara</text>
+<text x="770" y="383.0" text-anchor="start" font-size="12" fill="#adb5bd" font-weight="600" opacity="1.0">Fakultas/Unit...</text>
+<text x="100" y="463" text-anchor="start" font-size="18" fill="#1971c2" font-weight="600" opacity="1.0">Seksi 2: Data Peserta</text>
+<rect x="100" y="470" width="1000" height="170" rx="8" ry="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<text x="130" y="497" text-anchor="start" font-size="12" fill="#495057" font-weight="600" opacity="1.0">Sumber Data Peserta:</text>
+<ellipse cx="137.0" cy="517.0" rx="7.0" ry="7.0" fill="#ffffff" stroke="#495057" stroke-width="1"  opacity="1.0"/>
+<ellipse cx="137.0" cy="517.0" rx="3.0" ry="3.0" fill="#1971c2" stroke="#1971c2" stroke-width="1"  opacity="1.0"/>
+<text x="150" y="520" text-anchor="start" font-size="12" fill="#1e1e1e" font-weight="600" opacity="1.0">Upload CSV/Excel</text>
+<ellipse cx="317.0" cy="517.0" rx="7.0" ry="7.0" fill="#ffffff" stroke="#495057" stroke-width="1"  opacity="1.0"/>
+<text x="330" y="520" text-anchor="start" font-size="12" fill="#1e1e1e" font-weight="600" opacity="1.0">Input Manual</text>
+<ellipse cx="457.0" cy="517.0" rx="7.0" ry="7.0" fill="#ffffff" stroke="#495057" stroke-width="1"  opacity="1.0"/>
+<text x="470" y="520" text-anchor="start" font-size="12" fill="#1e1e1e" font-weight="600" opacity="1.0">Import dari sistem lain</text>
+<rect x="130" y="555" width="600" height="65" rx="8" ry="8" fill="#f8f9fa" stroke="#1971c2" stroke-width="1" stroke-dasharray="8,6" opacity="1.0"/>
+<text x="150" y="584" text-anchor="start" font-size="12" fill="#1971c2" font-weight="600" opacity="1.0">Drop file CSV/Excel di sini atau klik untuk pilih</text>
+<text x="150" y="601" text-anchor="start" font-size="11" fill="#868e96" font-weight="600" opacity="1.0">Format: nama, email, nim/nip (header di baris pertama)</text>
+<rect x="750" y="555" width="320" height="65" rx="8" ry="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="1"  opacity="1.0"/>
+<text x="770" y="580" text-anchor="start" font-size="12" fill="#2b8a3e" font-weight="600" opacity="1.0">✓ peserta-workshop-2026.csv</text>
+<text x="770" y="599" text-anchor="start" font-size="11" fill="#2b8a3e" font-weight="600" opacity="1.0">150 baris terdeteksi</text>
+<text x="100" y="678" text-anchor="start" font-size="18" fill="#1971c2" font-weight="600" opacity="1.0">Seksi 3: Pengaturan Sertifikat</text>
+<rect x="100" y="685" width="1000" height="130" rx="8" ry="8" fill="#ffffff" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<text x="130" y="712" text-anchor="start" font-size="12" fill="#495057" font-weight="600" opacity="1.0">Opsi Tambahan:</text>
+<rect x="130" y="725" width="14" height="14" rx="8" ry="8" fill="#ffffff" stroke="#495057" stroke-width="1"  opacity="1.0"/>
+<path d="M 132 732.0 L 142 732.0" fill="none" stroke="#2f9e44" stroke-width="2"  opacity="1.0"/>
+<text x="150" y="735" text-anchor="start" font-size="12" fill="#1e1e1e" font-weight="600" opacity="1.0">Aktifkan SKP (Satuan Kredit Profesi)</text>
+<rect x="130" y="752" width="14" height="14" rx="8" ry="8" fill="#ffffff" stroke="#495057" stroke-width="1"  opacity="1.0"/>
+<path d="M 132 759.0 L 142 759.0" fill="none" stroke="#2f9e44" stroke-width="2"  opacity="1.0"/>
+<text x="150" y="762" text-anchor="start" font-size="12" fill="#1e1e1e" font-weight="600" opacity="1.0">Aktifkan QR Code Verifikasi</text>
+<rect x="450" y="725" width="14" height="14" rx="8" ry="8" fill="#ffffff" stroke="#495057" stroke-width="1"  opacity="1.0"/>
+<path d="M 452 732.0 L 462 732.0" fill="none" stroke="#2f9e44" stroke-width="2"  opacity="1.0"/>
+<text x="470" y="735" text-anchor="start" font-size="12" fill="#1e1e1e" font-weight="600" opacity="1.0">Tanda tangan digital (TTD Dekan/Kaprodi)</text>
+<rect x="450" y="752" width="14" height="14" rx="8" ry="8" fill="#ffffff" stroke="#495057" stroke-width="1"  opacity="1.0"/>
+<path d="M 452 759.0 L 462 759.0" fill="none" stroke="#2f9e44" stroke-width="2"  opacity="1.0"/>
+<text x="470" y="762" text-anchor="start" font-size="12" fill="#1e1e1e" font-weight="600" opacity="1.0">Kirim email otomatis ke peserta</text>
+<rect x="760" y="715" width="310" height="38" rx="8" ry="8" fill="#ffffff" stroke="#868e96" stroke-width="1"  opacity="1.0"/>
+<text x="760" y="707" text-anchor="start" font-size="12" fill="#495057" font-weight="600" opacity="1.0">Jumlah SKP</text>
+<text x="770" y="738.0" text-anchor="start" font-size="12" fill="#495057" font-weight="600" opacity="1.0">4</text>
+<text x="100" y="853" text-anchor="start" font-size="18" fill="#1971c2" font-weight="600" opacity="1.0">Seksi 4: Review &amp; Submit</text>
+<text x="100" y="872" text-anchor="start" font-size="12" fill="#868e96" font-weight="600" opacity="1.0">Data akan ditampilkan di sini sebelum submit final</text>
+<rect x="60" y="910" width="1080" height="30" rx="8" ry="8" fill="#f1f3f5" stroke="#dee2e6" stroke-width="1"  opacity="1.0"/>
+<rect x="820" y="915" width="140" height="22" rx="8" ry="8" fill="#ffffff" stroke="#adb5bd" stroke-width="2"  opacity="1.0"/>
+<text x="830" y="931.25" text-anchor="start" font-size="14" fill="#495057" opacity="1.0"><tspan x="830" y="931.25">Kembali</tspan></text>
+<rect x="980" y="915" width="150" height="22" rx="8" ry="8" fill="#2f9e44" stroke="#2b8a3e" stroke-width="2"  opacity="1.0"/>
+<text x="990" y="931.25" text-anchor="start" font-size="14" fill="#ffffff" opacity="1.0"><tspan x="990" y="931.25">Submit Pengajuan</tspan></text>
+</svg>

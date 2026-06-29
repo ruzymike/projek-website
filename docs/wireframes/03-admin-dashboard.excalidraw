@@ -1,0 +1,1859 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hermes-agent",
+  "elements": [
+    {
+      "type": "text",
+      "id": "tot5gibea",
+      "x": 380,
+      "y": 20,
+      "text": "Wireframe \u2014 Admin Dashboard & Detail Review",
+      "fontSize": 24,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Wireframe \u2014 Admin Dashboard & Detail Review",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tfs9ynoyl",
+      "x": 60,
+      "y": 70,
+      "text": "1. Dashboard Admin (/)",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "strokeColor": "#1971c2",
+      "originalText": "1. Dashboard Admin (/)",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rc4wecd8d",
+      "x": 40,
+      "y": 100,
+      "width": 580,
+      "height": 800,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#f8f9fa",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "rw8bnr7gj",
+      "x": 40,
+      "y": 100,
+      "width": 580,
+      "height": 40,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tiby3pbz0",
+      "x": 60,
+      "y": 110,
+      "text": "FIK UI Admin \u2014 Dashboard",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "originalText": "FIK UI Admin \u2014 Dashboard",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "txl3wvtiq",
+      "x": 500,
+      "y": 110,
+      "text": "Admin | Logout",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "originalText": "Admin | Logout",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r2ym34bfi",
+      "x": 40,
+      "y": 140,
+      "width": 140,
+      "height": 760,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#343a40",
+      "fillStyle": "solid",
+      "strokeColor": "#343a40",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "ra1xt9mhe",
+      "x": 45,
+      "y": 160,
+      "width": 130,
+      "height": 35,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1,
+      "boundElements": [
+        {
+          "id": "t_ra1xt9mhe",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_ra1xt9mhe",
+      "x": 55,
+      "y": 168,
+      "width": 110,
+      "height": 12,
+      "text": "Dashboard",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "ra1xt9mhe",
+      "originalText": "Dashboard",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rgx4wkxja",
+      "x": 45,
+      "y": 205,
+      "width": 130,
+      "height": 35,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#343a40",
+      "fillStyle": "solid",
+      "strokeColor": "#343a40",
+      "strokeWidth": 1,
+      "boundElements": [
+        {
+          "id": "t_rgx4wkxja",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rgx4wkxja",
+      "x": 55,
+      "y": 213,
+      "width": 110,
+      "height": 12,
+      "text": "Pengajuan",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rgx4wkxja",
+      "originalText": "Pengajuan",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rjcs5vtrk",
+      "x": 45,
+      "y": 250,
+      "width": 130,
+      "height": 35,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#343a40",
+      "fillStyle": "solid",
+      "strokeColor": "#343a40",
+      "strokeWidth": 1,
+      "boundElements": [
+        {
+          "id": "t_rjcs5vtrk",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rjcs5vtrk",
+      "x": 55,
+      "y": 258,
+      "width": 110,
+      "height": 12,
+      "text": "Template",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rjcs5vtrk",
+      "originalText": "Template",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rcpx6d61k",
+      "x": 45,
+      "y": 295,
+      "width": 130,
+      "height": 35,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#343a40",
+      "fillStyle": "solid",
+      "strokeColor": "#343a40",
+      "strokeWidth": 1,
+      "boundElements": [
+        {
+          "id": "t_rcpx6d61k",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rcpx6d61k",
+      "x": 55,
+      "y": 303,
+      "width": 110,
+      "height": 12,
+      "text": "Sertifikat",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rcpx6d61k",
+      "originalText": "Sertifikat",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rf7jivsll",
+      "x": 45,
+      "y": 340,
+      "width": 130,
+      "height": 35,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#343a40",
+      "fillStyle": "solid",
+      "strokeColor": "#343a40",
+      "strokeWidth": 1,
+      "boundElements": [
+        {
+          "id": "t_rf7jivsll",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rf7jivsll",
+      "x": 55,
+      "y": 348,
+      "width": 110,
+      "height": 12,
+      "text": "User Admin",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rf7jivsll",
+      "originalText": "User Admin",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r80yqhy0a",
+      "x": 45,
+      "y": 385,
+      "width": 130,
+      "height": 35,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#343a40",
+      "fillStyle": "solid",
+      "strokeColor": "#343a40",
+      "strokeWidth": 1,
+      "boundElements": [
+        {
+          "id": "t_r80yqhy0a",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_r80yqhy0a",
+      "x": 55,
+      "y": 393,
+      "width": 110,
+      "height": 12,
+      "text": "Pengaturan",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "r80yqhy0a",
+      "originalText": "Pengaturan",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tswle7wyy",
+      "x": 200,
+      "y": 160,
+      "text": "Dashboard",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Dashboard",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tlvlx3a2e",
+      "x": 200,
+      "y": 185,
+      "text": "Ringkasan aktivitas penerbitan sertifikat",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#868e96",
+      "originalText": "Ringkasan aktivitas penerbitan sertifikat",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "racu47fp7",
+      "x": 200,
+      "y": 220,
+      "width": 95,
+      "height": 80,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "t53ijfjo2",
+      "x": 208,
+      "y": 228,
+      "text": "12",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "strokeColor": "#1971c2",
+      "originalText": "12",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "txggq6r2y",
+      "x": 208,
+      "y": 258,
+      "text": "Pengajuan\nBaru",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Pengajuan\nBaru",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r5rnq2kg4",
+      "x": 300,
+      "y": 220,
+      "width": 95,
+      "height": 80,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "trxgbipbj",
+      "x": 308,
+      "y": 228,
+      "text": "48",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "strokeColor": "#2f9e44",
+      "originalText": "48",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "t7pa2kgwx",
+      "x": 308,
+      "y": 258,
+      "text": "Disetujui\nBulan Ini",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Disetujui\nBulan Ini",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rlz5mravk",
+      "x": 400,
+      "y": 220,
+      "width": 95,
+      "height": 80,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#7048e8",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "tx1my7g2r",
+      "x": 408,
+      "y": 228,
+      "text": "1,247",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "strokeColor": "#7048e8",
+      "originalText": "1,247",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "t7cnfj6tm",
+      "x": 408,
+      "y": 258,
+      "text": "Sertifikat\nTerbit",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Sertifikat\nTerbit",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r8ba1u3r7",
+      "x": 500,
+      "y": 220,
+      "width": 95,
+      "height": 80,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2
+    },
+    {
+      "type": "text",
+      "id": "tli5tbaa0",
+      "x": 508,
+      "y": 228,
+      "text": "3",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "strokeColor": "#e8590c",
+      "originalText": "3",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "twe21wupy",
+      "x": 508,
+      "y": 258,
+      "text": "Menunggu\nReview",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Menunggu\nReview",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tn7vy79te",
+      "x": 200,
+      "y": 325,
+      "text": "Pengajuan Terbaru",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Pengajuan Terbaru",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rs7hjji3t",
+      "x": 200,
+      "y": 350,
+      "width": 400,
+      "height": 28,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#e9ecef",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1,
+      "boundElements": [
+        {
+          "id": "t_rs7hjji3t",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rs7hjji3t",
+      "x": 210,
+      "y": 358,
+      "width": 380,
+      "height": 10,
+      "text": "ID | Acara | Pengaju | Tanggal | Status",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rs7hjji3t",
+      "originalText": "ID | Acara | Pengaju | Tanggal | Status",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "raigupplb",
+      "x": 200,
+      "y": 380,
+      "width": 400,
+      "height": 30,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tlwtvfb1z",
+      "x": 208,
+      "y": 388,
+      "text": "#1042  Workshop Laravel  Andi  29/06",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "#1042  Workshop Laravel  Andi  29/06",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rx8l0kv6q",
+      "x": 495,
+      "y": 385,
+      "width": 80,
+      "height": 24,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_rx8l0kv6q",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rx8l0kv6q",
+      "x": 505,
+      "y": 393,
+      "width": 60,
+      "height": 11,
+      "text": "Menunggu",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rx8l0kv6q",
+      "originalText": "Menunggu",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rad9u2i4z",
+      "x": 200,
+      "y": 412,
+      "width": 400,
+      "height": 30,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "t5r7uf6k7",
+      "x": 208,
+      "y": 420,
+      "text": "#1041  Seminar AI  Budi  28/06",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "#1041  Seminar AI  Budi  28/06",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rtosncbd6",
+      "x": 495,
+      "y": 417,
+      "width": 87,
+      "height": 24,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#2f9e44",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_rtosncbd6",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rtosncbd6",
+      "x": 505,
+      "y": 425,
+      "width": 67,
+      "height": 11,
+      "text": "Disetujui",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rtosncbd6",
+      "originalText": "Disetujui",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rafrxp2ta",
+      "x": 200,
+      "y": 444,
+      "width": 400,
+      "height": 30,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "toxjgxq98",
+      "x": 208,
+      "y": 452,
+      "text": "#1040  Hackathon  Citra  28/06",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "#1040  Hackathon  Citra  28/06",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rlbgpppdk",
+      "x": 495,
+      "y": 449,
+      "width": 73,
+      "height": 24,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#c92a2a",
+      "fillStyle": "solid",
+      "strokeColor": "#c92a2a",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_rlbgpppdk",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rlbgpppdk",
+      "x": 505,
+      "y": 457,
+      "width": 53,
+      "height": 11,
+      "text": "Ditolak",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rlbgpppdk",
+      "originalText": "Ditolak",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rzn3alsko",
+      "x": 200,
+      "y": 476,
+      "width": 400,
+      "height": 30,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tui4ky8d5",
+      "x": 208,
+      "y": 484,
+      "text": "#1039  Pelatihan SKP  Dewi  27/06",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "#1039  Pelatihan SKP  Dewi  27/06",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rgqe7ls8f",
+      "x": 495,
+      "y": 481,
+      "width": 87,
+      "height": 24,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#2f9e44",
+      "fillStyle": "solid",
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_rgqe7ls8f",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rgqe7ls8f",
+      "x": 505,
+      "y": 489,
+      "width": 67,
+      "height": 11,
+      "text": "Disetujui",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rgqe7ls8f",
+      "originalText": "Disetujui",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r7sb0i5be",
+      "x": 200,
+      "y": 508,
+      "width": 400,
+      "height": 30,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tn378hn43",
+      "x": 208,
+      "y": 516,
+      "text": "#1038  Webinar  Eka  27/06",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "#1038  Webinar  Eka  27/06",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r7cbo4yoy",
+      "x": 495,
+      "y": 513,
+      "width": 80,
+      "height": 24,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_r7cbo4yoy",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_r7cbo4yoy",
+      "x": 505,
+      "y": 521,
+      "width": 60,
+      "height": 11,
+      "text": "Menunggu",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "r7cbo4yoy",
+      "originalText": "Menunggu",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tjbdyxxpv",
+      "x": 200,
+      "y": 560,
+      "text": "Statistik Bulanan",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Statistik Bulanan",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r29o034yi",
+      "x": 200,
+      "y": 585,
+      "width": 400,
+      "height": 180,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "t3u00hc2y",
+      "x": 210,
+      "y": 600,
+      "text": "Sertifikat Diterbitkan (per bulan)",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#868e96",
+      "originalText": "Sertifikat Diterbitkan (per bulan)",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rabpxezmx",
+      "x": 220,
+      "y": 736.0,
+      "width": 22,
+      "height": 24.0,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "rjifywce4",
+      "x": 250,
+      "y": 724.0,
+      "width": 22,
+      "height": 36.0,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "rj793ed3o",
+      "x": 280,
+      "y": 742.0,
+      "width": 22,
+      "height": 18.0,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "rbdkibzck",
+      "x": 310,
+      "y": 712.0,
+      "width": 22,
+      "height": 48.0,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "rz02igw30",
+      "x": 340,
+      "y": 698.0,
+      "width": 22,
+      "height": 62.0,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "r0oz6wf3b",
+      "x": 370,
+      "y": 720.0,
+      "width": 22,
+      "height": 40.0,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "rakn80puo",
+      "x": 400,
+      "y": 704.0,
+      "width": 22,
+      "height": 56.0,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "r6wn73o8c",
+      "x": 430,
+      "y": 688.0,
+      "width": 22,
+      "height": 72.0,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "r5qr5ppiy",
+      "x": 460,
+      "y": 702.0,
+      "width": 22,
+      "height": 58.0,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "rzyf5rehe",
+      "x": 490,
+      "y": 678.0,
+      "width": 22,
+      "height": 82.0,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "rfs1z89w4",
+      "x": 520,
+      "y": 690.0,
+      "width": 22,
+      "height": 70.0,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "r6s4u136s",
+      "x": 550,
+      "y": 676.0,
+      "width": 22,
+      "height": 84.0,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tcczv4g39",
+      "x": 210,
+      "y": 760,
+      "text": "Jan Feb Mar Apr Mei Jun Jul Agt Sep Okt Nov Des",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#868e96",
+      "originalText": "Jan Feb Mar Apr Mei Jun Jul Agt Sep Okt Nov Des",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "trdyc23n6",
+      "x": 200,
+      "y": 790,
+      "text": "Quick Actions",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Quick Actions",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rn3k0dmo5",
+      "x": 200,
+      "y": 815,
+      "width": 100,
+      "height": 28,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#2f9e44",
+      "fillStyle": "solid",
+      "strokeColor": "#2b8a3e",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_rn3k0dmo5",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rn3k0dmo5",
+      "x": 210,
+      "y": 823,
+      "width": 80,
+      "height": 13,
+      "text": "+ Pengajuan",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rn3k0dmo5",
+      "originalText": "+ Pengajuan",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rgvlcaobw",
+      "x": 310,
+      "y": 815,
+      "width": 100,
+      "height": 28,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1864ab",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_rgvlcaobw",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rgvlcaobw",
+      "x": 320,
+      "y": 823,
+      "width": 80,
+      "height": 13,
+      "text": "Template",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rgvlcaobw",
+      "originalText": "Template",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "ry9lyf9cj",
+      "x": 420,
+      "y": 815,
+      "width": 100,
+      "height": 28,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#868e96",
+      "fillStyle": "solid",
+      "strokeColor": "#6c757d",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_ry9lyf9cj",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_ry9lyf9cj",
+      "x": 430,
+      "y": 823,
+      "width": 80,
+      "height": 13,
+      "text": "User",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "ry9lyf9cj",
+      "originalText": "User",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tsaijg1jy",
+      "x": 660,
+      "y": 70,
+      "text": "2. Detail Review (/admin/pengajuan/1042)",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "strokeColor": "#e8590c",
+      "originalText": "2. Detail Review (/admin/pengajuan/1042)",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rt5maxubr",
+      "x": 640,
+      "y": 100,
+      "width": 580,
+      "height": 800,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#f8f9fa",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "rectangle",
+      "id": "rf9u3wv4a",
+      "x": 640,
+      "y": 100,
+      "width": 580,
+      "height": 40,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#1971c2",
+      "fillStyle": "solid",
+      "strokeColor": "#1971c2",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tmxl6kzts",
+      "x": 660,
+      "y": 110,
+      "text": "Detail Pengajuan #1042",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "originalText": "Detail Pengajuan #1042",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "t489mtf2w",
+      "x": 660,
+      "y": 160,
+      "text": "Workshop Laravel 11 \u2014 2026",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Workshop Laravel 11 \u2014 2026",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "trsnhqyci",
+      "x": 660,
+      "y": 188,
+      "text": "Diajukan oleh: Andi Setiawan (andi@fik.ui.ac.id)",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#868e96",
+      "originalText": "Diajukan oleh: Andi Setiawan (andi@fik.ui.ac.id)",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rk1r5ogkb",
+      "x": 660,
+      "y": 210,
+      "width": 129,
+      "height": 24,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeColor": "#e8590c",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_rk1r5ogkb",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rk1r5ogkb",
+      "x": 670,
+      "y": 218,
+      "width": 109,
+      "height": 11,
+      "text": "MENUNGGU REVIEW",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rk1r5ogkb",
+      "originalText": "MENUNGGU REVIEW",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "txo14rdxa",
+      "x": 660,
+      "y": 250,
+      "text": "Informasi Acara",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1971c2",
+      "originalText": "Informasi Acara",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rch2nzsva",
+      "x": 660,
+      "y": 275,
+      "width": 540,
+      "height": 130,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "t7pcu5qxd",
+      "x": 680,
+      "y": 285,
+      "text": "Tanggal:",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Tanggal:",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tglbwaqyf",
+      "x": 800,
+      "y": 285,
+      "text": "15-17 Juli 2026",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "15-17 Juli 2026",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "t9v1zunvz",
+      "x": 680,
+      "y": 307,
+      "text": "Lokasi:",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Lokasi:",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tna7j79b6",
+      "x": 800,
+      "y": 307,
+      "text": "Aula FIK UI Lt. 3",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Aula FIK UI Lt. 3",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tm51j2d6v",
+      "x": 680,
+      "y": 329,
+      "text": "Jenis:",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Jenis:",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "t9qzkjb08",
+      "x": 800,
+      "y": 329,
+      "text": "Pelatihan (dengan SKP)",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Pelatihan (dengan SKP)",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tpcch0kq4",
+      "x": 680,
+      "y": 351,
+      "text": "Peserta:",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Peserta:",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tyb7yfb5j",
+      "x": 800,
+      "y": 351,
+      "text": "150 orang",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "150 orang",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tsk0py6dn",
+      "x": 680,
+      "y": 373,
+      "text": "Penyelenggara:",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Penyelenggara:",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "t034oyu4g",
+      "x": 800,
+      "y": 373,
+      "text": "Pusat Komputasi FIK UI",
+      "fontSize": 11,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Pusat Komputasi FIK UI",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tcgl0wkbo",
+      "x": 660,
+      "y": 425,
+      "text": "Pengaturan",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1971c2",
+      "originalText": "Pengaturan",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r8d6ovm82",
+      "x": 660,
+      "y": 450,
+      "width": 540,
+      "height": 90,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "tysviw6cq",
+      "x": 680,
+      "y": 465,
+      "text": "SKP: 4 poin",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "SKP: 4 poin",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "trt9uqdk5",
+      "x": 680,
+      "y": 485,
+      "text": "QR Code: Aktif",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "QR Code: Aktif",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tw176697y",
+      "x": 680,
+      "y": 505,
+      "text": "TTD Digital: Dekan FIK",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "TTD Digital: Dekan FIK",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tsb7rkm11",
+      "x": 680,
+      "y": 525,
+      "text": "Email Otomatis: Aktif",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Email Otomatis: Aktif",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tkfoev4of",
+      "x": 660,
+      "y": 560,
+      "text": "Daftar Peserta (contoh 5 dari 150)",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1971c2",
+      "originalText": "Daftar Peserta (contoh 5 dari 150)",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "r7ggsymek",
+      "x": 660,
+      "y": 585,
+      "width": 540,
+      "height": 130,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#dee2e6",
+      "strokeWidth": 1
+    },
+    {
+      "type": "text",
+      "id": "t59iz23ab",
+      "x": 680,
+      "y": 595,
+      "text": "1. Andi Wijaya (2106123456) \u2014 andi@ui.ac.id",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "1. Andi Wijaya (2106123456) \u2014 andi@ui.ac.id",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tduh7iqe6",
+      "x": 680,
+      "y": 617,
+      "text": "2. Budi Santoso (2106234567) \u2014 budi@ui.ac.id",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "2. Budi Santoso (2106234567) \u2014 budi@ui.ac.id",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tijkhd2dk",
+      "x": 680,
+      "y": 639,
+      "text": "3. Citra Dewi (2106345678) \u2014 citra@ui.ac.id",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "3. Citra Dewi (2106345678) \u2014 citra@ui.ac.id",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tats7b8em",
+      "x": 680,
+      "y": 661,
+      "text": "4. Dewi Lestari (2106456789) \u2014 dewi@ui.ac.id",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "4. Dewi Lestari (2106456789) \u2014 dewi@ui.ac.id",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "t756gfmlv",
+      "x": 680,
+      "y": 683,
+      "text": "5. Eko Prabowo (2106567890) \u2014 eko@ui.ac.id",
+      "fontSize": 10,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "5. Eko Prabowo (2106567890) \u2014 eko@ui.ac.id",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tbualtjz1",
+      "x": 660,
+      "y": 730,
+      "text": "Aksi",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1971c2",
+      "originalText": "Aksi",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rwqos49h4",
+      "x": 660,
+      "y": 755,
+      "width": 130,
+      "height": 36,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#2f9e44",
+      "fillStyle": "solid",
+      "strokeColor": "#2b8a3e",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_rwqos49h4",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rwqos49h4",
+      "x": 670,
+      "y": 763,
+      "width": 110,
+      "height": 13,
+      "text": "Setujui",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rwqos49h4",
+      "originalText": "Setujui",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rheuj1o5c",
+      "x": 800,
+      "y": 755,
+      "width": 130,
+      "height": 36,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#c92a2a",
+      "fillStyle": "solid",
+      "strokeColor": "#b61d1d",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_rheuj1o5c",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rheuj1o5c",
+      "x": 810,
+      "y": 763,
+      "width": 110,
+      "height": 13,
+      "text": "Tolak",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rheuj1o5c",
+      "originalText": "Tolak",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rpp2fwk47",
+      "x": 940,
+      "y": 755,
+      "width": 130,
+      "height": 36,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#e8590c",
+      "fillStyle": "solid",
+      "strokeColor": "#d9480f",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_rpp2fwk47",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_rpp2fwk47",
+      "x": 950,
+      "y": 763,
+      "width": 110,
+      "height": 13,
+      "text": "Minta Revisi",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "rpp2fwk47",
+      "originalText": "Minta Revisi",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "ru908wn8v",
+      "x": 1080,
+      "y": 755,
+      "width": 130,
+      "height": 36,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#868e96",
+      "fillStyle": "solid",
+      "strokeColor": "#6c757d",
+      "strokeWidth": 2,
+      "boundElements": [
+        {
+          "id": "t_ru908wn8v",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "t_ru908wn8v",
+      "x": 1090,
+      "y": 763,
+      "width": 110,
+      "height": 13,
+      "text": "Lihat Lampiran",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#ffffff",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": "ru908wn8v",
+      "originalText": "Lihat Lampiran",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "tonpv49io",
+      "x": 660,
+      "y": 805,
+      "text": "Catatan Admin (opsional):",
+      "fontSize": 12,
+      "fontFamily": 1,
+      "strokeColor": "#495057",
+      "originalText": "Catatan Admin (opsional):",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "rpwmg6l0x",
+      "x": 660,
+      "y": 825,
+      "width": 540,
+      "height": 60,
+      "roundness": {
+        "type": 3
+      },
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeColor": "#adb5bd",
+      "strokeWidth": 1
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}
