@@ -1,0 +1,42 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Environment
+.env
+.env.backup
+.env.production
+
+# Laravel specific
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/bootstrap/cache/*.php
+!/storage/logs/.gitkeep
+!/storage/framework/cache/.gitkeep
+!/storage/framework/sessions/.gitkeep
+!/storage/framework/testing/.gitkeep
+!/storage/framework/views/.gitkeep
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/public/build
+/public/hot
+/public/storage
+/storage/app/public
+
+# Tests
+/coverage
+
+# Misc
+*.log
+*.sublime-project
+*.sublime-workspace
