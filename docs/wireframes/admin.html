@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wireframe Halaman Admin — Website Sertifikat Online FIK UI</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;color:#1a1a1a;background:#f5f5f3;padding:32px 16px}
+.container{max-width:960px;margin:0 auto}
+h1{font-size:20px;font-weight:600;color:#1A3A6B;margin-bottom:4px}
+.doc-meta{font-size:12px;color:#888;margin-bottom:32px}
+
+.page-section{margin-bottom:60px}
+.page-tag{font-size:12px;font-weight:600;color:#185FA5;background:#E6F1FB;border:1px solid #B5D4F4;border-radius:6px;padding:4px 10px;display:inline-block;margin-bottom:8px}
+.page-label{font-size:20px;font-weight:600;color:#1a1a1a;margin-bottom:2px}
+.page-url{font-size:12px;color:#aaa;font-family:monospace;margin-bottom:14px}
+
+.screen{border:1.5px solid #bbb;border-radius:12px;overflow:hidden;background:#fff;display:flex;flex-direction:column;min-height:600px}
+.topbar{background:#1A3A6B;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;color:#fff}
+.brand{font-size:14px;font-weight:600;display:flex;align-items:center;gap:8px}
+.brand-icon{width:20px;height:20px;background:#E6F1FB;border-radius:4px;display:flex;align-items:center;justify-content:center;color:#1A3A6B;font-size:12px;font-weight:bold}
+.user-menu{font-size:12px;display:flex;align-items:center;gap:12px}
+
+.app-body{display:flex;flex:1}
+.sidebar{width:220px;background:#f8f9fa;border-right:1px solid #ddd;padding:20px 0;display:flex;flex-direction:column;gap:4px}
+.menu-item{padding:10px 20px;font-size:13px;color:#495057;display:flex;align-items:center;gap:10px;cursor:pointer}
+.menu-item.active{background:#E6F1FB;color:#1A3A6B;font-weight:600;border-right:3px solid #1A3A6B}
+.menu-icon{font-size:16px;color:#adb5bd}
+.menu-item.active .menu-icon{color:#1A3A6B}
+.badge-count{background:#e03131;color:white;font-size:10px;padding:2px 6px;border-radius:10px;margin-left:auto;font-weight:bold}
+
+.main-content{flex:1;padding:24px;background:#fff}
+.page-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:24px;border-bottom:1px solid #eee;padding-bottom:16px}
+.page-title{font-size:20px;font-weight:600;color:#1a1a1a}
+.page-desc{font-size:12px;color:#868e96;margin-top:4px}
+.header-actions{display:flex;gap:8px}
+
+.btn{padding:8px 14px;border-radius:6px;font-size:12px;font-weight:600;display:inline-flex;align-items:center;gap:6px;cursor:pointer;border:1px solid transparent}
+.btn-primary{background:#185FA5;color:#fff;border-color:#185FA5}
+.btn-success{background:#2b8a3e;color:#fff;border-color:#2b8a3e}
+.btn-danger{background:#e03131;color:#fff;border-color:#e03131}
+.btn-outline{background:#fff;color:#495057;border-color:#ced4da}
+
+/* Dashboard inbox styles */
+.filter-bar{display:flex;gap:12px;margin-bottom:16px;background:#f8f9fa;padding:12px;border-radius:8px;border:1px solid #eee}
+.filter-input{height:32px;border:1px solid #ced4da;border-radius:4px;padding:0 10px;font-size:12px;min-width:180px}
+.filter-select{height:32px;border:1px solid #ced4da;border-radius:4px;padding:0 10px;font-size:12px;background:#fff}
+
+.data-table{width:100%;border-collapse:collapse;font-size:12px}
+.data-table th{text-align:left;padding:12px;background:#f8f9fa;border-bottom:2px solid #dee2e6;color:#495057;font-weight:600}
+.data-table td{padding:12px;border-bottom:1px solid #eee;vertical-align:middle}
+.data-table tr:hover{background:#f1f3f5}
+
+.status-badge{padding:4px 8px;border-radius:4px;font-size:11px;font-weight:600;display:inline-block}
+.status-menunggu{background:#fff3bf;color:#f08c00}
+.status-disetujui{background:#d3f9d8;color:#2b8a3e}
+.status-ditolak{background:#ffe3e3;color:#e03131}
+.status-diterbitkan{background:#e6fcf5;color:#0ca678}
+
+/* Detail page styles */
+.detail-grid{display:grid;grid-template-columns:2fr 1fr;gap:24px}
+.detail-card{border:1px solid #dee2e6;border-radius:8px;overflow:hidden;margin-bottom:20px}
+.card-header{background:#f8f9fa;padding:12px 16px;border-bottom:1px solid #dee2e6;font-size:13px;font-weight:600;color:#1a1a1a}
+.card-body{padding:16px}
+
+.info-row{display:flex;margin-bottom:12px;font-size:12px}
+.info-row:last-child{margin-bottom:0}
+.info-label{width:140px;color:#868e96;flex-shrink:0}
+.info-value{color:#1a1a1a;font-weight:500}
+
+.file-item{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border:1px solid #e9ecef;border-radius:6px;margin-bottom:8px;background:#f8f9fa}
+.file-info{display:flex;align-items:center;gap:8px}
+.file-icon{color:#185FA5;font-size:18px}
+.file-name{font-size:12px;color:#1a1a1a;font-weight:500}
+.file-meta{font-size:11px;color:#868e96}
+
+.step-box{border-left:2px solid #dee2e6;padding-left:16px;margin-left:8px;position:relative;padding-bottom:24px}
+.step-box:last-child{border-left-color:transparent;padding-bottom:0}
+.step-dot{width:12px;height:12px;border-radius:50%;background:#dee2e6;position:absolute;left:-7px;top:0}
+.step-dot.active{background:#185FA5}
+.step-dot.success{background:#2b8a3e}
+.step-title{font-size:13px;font-weight:600;color:#1a1a1a;margin-top:-2px;margin-bottom:8px}
+.step-desc{font-size:12px;color:#495057;line-height:1.4}
+
+.action-bar{background:#f8f9fa;padding:16px;border-radius:8px;border:1px solid #dee2e6;margin-top:20px;display:flex;gap:12px}
+.textarea-mock{width:100%;height:80px;border:1px solid #ced4da;border-radius:6px;background:#fff;padding:10px;font-size:12px;color:#868e96;margin-bottom:12px;resize:none}
+
+.footer{text-align:center;font-size:11px;color:#bbb;margin-top:40px;padding-top:20px;border-top:1px solid #e0e0e0}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Wireframe Halaman Admin</h1>
+  <div class="doc-meta">Sesuai PRD v4: Flow Inbox -> Review -> Input Excel -> Generate Queue</div>
+
+  <!-- HALAMAN 1: INBOX PENGAJUAN -->
+  <div class="page-section">
+    <div class="page-tag">Dashboard Admin 1</div>
+    <div class="page-label">Inbox Pengajuan Sertifikat</div>
+    <div class="page-url">/admin/pengajuan</div>
+    <div class="screen">
+      <div class="topbar">
+        <div class="brand"><div class="brand-icon">FIK</div> FIK UI Sertifikat Admin</div>
+        <div class="user-menu"><span>Halo, Administrator</span> | <span>Logout</span></div>
+      </div>
+      <div class="app-body">
+        <div class="sidebar">
+          <div class="menu-item"><span class="menu-icon">📊</span> Dashboard</div>
+          <div class="menu-item active"><span class="menu-icon">📥</span> Inbox Pengajuan <span class="badge-count">3</span></div>
+          <div class="menu-item"><span class="menu-icon">📜</span> Data Sertifikat</div>
+          <div class="menu-item"><span class="menu-icon">⚙️</span> Pengaturan</div>
+        </div>
+        <div class="main-content">
+          <div class="page-header">
+            <div>
+              <div class="page-title">Inbox Pengajuan</div>
+              <div class="page-desc">Kelola semua pengajuan penerbitan sertifikat dari penyelenggara kegiatan.</div>
+            </div>
+          </div>
+
+          <div class="filter-bar">
+            <input type="text" class="filter-input" placeholder="Cari nama kegiatan / pengaju...">
+            <select class="filter-select">
+              <option>Semua Status</option>
+              <option selected>Menunggu Review (3)</option>
+              <option>Disetujui</option>
+              <option>Ditolak</option>
+            </select>
+            <select class="filter-select">
+              <option>Semua Waktu</option>
+              <option>7 Hari Terakhir</option>
+            </select>
+          </div>
+
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>No. Referensi</th>
+                <th>Nama Kegiatan</th>
+                <th>Pengaju</th>
+                <th>Tgl Submit</th>
+                <th>Status</th>
+                <th>Aksi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>REF-2026-00123</strong></td>
+                <td>Seminar Nasional Keperawatan 2026<br><span style="color:#888;font-size:11px">20 Juni 2026 • SKP: Ya • Indonesia</span></td>
+                <td>Dr. Siti Aminah<br><span style="color:#888;font-size:11px">siti@fik.ui.ac.id</span></td>
+                <td>25 Jun 2026<br><span style="color:#888;font-size:11px">09:12 WIB</span></td>
+                <td><span class="status-badge status-menunggu">Menunggu Review</span></td>
+                <td><button class="btn btn-primary">Review & Proses</button></td>
+              </tr>
+              <tr>
+                <td><strong>REF-2026-00122</strong></td>
+                <td>Workshop Metodologi Riset<br><span style="color:#888;font-size:11px">18 Juni 2026 • SKP: Tidak • Inggris</span></td>
+                <td>Budi Santoso<br><span style="color:#888;font-size:11px">budi@fik.ui.ac.id</span></td>
+                <td>24 Jun 2026<br><span style="color:#888;font-size:11px">14:30 WIB</span></td>
+                <td><span class="status-badge status-menunggu">Menunggu Review</span></td>
+                <td><button class="btn btn-primary">Review & Proses</button></td>
+              </tr>
+              <tr>
+                <td><strong>REF-2026-00121</strong></td>
+                <td>Pelatihan K3 Rumah Sakit<br><span style="color:#888;font-size:11px">15 Juni 2026 • SKP: Ya • Indonesia</span></td>
+                <td>Andi Wijaya<br><span style="color:#888;font-size:11px">andi@rscm.co.id</span></td>
+                <td>20 Jun 2026<br><span style="color:#888;font-size:11px">10:05 WIB</span></td>
+                <td><span class="status-badge status-disetujui">Disetujui</span></td>
+                <td><button class="btn btn-outline">Lihat Detail</button></td>
+              </tr>
+              <tr>
+                <td><strong>REF-2026-00120</strong></td>
+                <td>Webinar Keperawatan Anak<br><span style="color:#888;font-size:11px">10 Juni 2026 • SKP: Ya • Indonesia</span></td>
+                <td>Citra Lestari<br><span style="color:#888;font-size:11px">citra@gmail.com</span></td>
+                <td>12 Jun 2026<br><span style="color:#888;font-size:11px">16:20 WIB</span></td>
+                <td><span class="status-badge status-diterbitkan">Diterbitkan</span></td>
+                <td><button class="btn btn-outline">Lihat Detail</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HALAMAN 2: DETAIL & REVIEW -->
+  <div class="page-section">
+    <div class="page-tag">Dashboard Admin 2</div>
+    <div class="page-label">Detail Review & Proses Penerbitan</div>
+    <div class="page-url">/admin/pengajuan/REF-2026-00123</div>
+    <div class="screen">
+      <div class="topbar">
+        <div class="brand"><div class="brand-icon">FIK</div> FIK UI Sertifikat Admin</div>
+        <div class="user-menu"><span>Halo, Administrator</span> | <span>Logout</span></div>
+      </div>
+      <div class="app-body">
+        <div class="sidebar">
+          <div class="menu-item"><span class="menu-icon">📊</span> Dashboard</div>
+          <div class="menu-item active"><span class="menu-icon">📥</span> Inbox Pengajuan <span class="badge-count">2</span></div>
+          <div class="menu-item"><span class="menu-icon">📜</span> Data Sertifikat</div>
+        </div>
+        <div class="main-content">
+          <div class="page-header">
+            <div>
+              <div class="page-title">Detail Pengajuan: REF-2026-00123</div>
+              <div class="page-desc">Seminar Nasional Keperawatan 2026</div>
+            </div>
+            <div class="header-actions">
+              <button class="btn btn-outline">Kembali ke Inbox</button>
+            </div>
+          </div>
+
+          <div class="detail-grid">
+            <!-- Kolom Kiri: Informasi -->
+            <div>
+              <div class="detail-card">
+                <div class="card-header">Data Kegiatan & Penanggungjawab</div>
+                <div class="card-body">
+                  <div class="info-row"><div class="info-label">Nama Kegiatan</div><div class="info-value">Seminar Nasional Keperawatan 2026</div></div>
+                  <div class="info-row"><div class="info-label">Tanggal</div><div class="info-value">20 Juni 2026</div></div>
+                  <div class="info-row"><div class="info-label">Lokasi</div><div class="info-value">Auditorium FIK UI</div></div>
+                  <div class="info-row"><div class="info-label">Penanggungjawab</div><div class="info-value">Dr. Siti Aminah (siti@fik.ui.ac.id) / 08123456789</div></div>
+                  <div class="info-row"><div class="info-label">SKP PPNI</div><div class="info-value">Ya (Peserta: 4 SKP, Panitia: 3 SKP, Pembicara: 5 SKP)</div></div>
+                </div>
+              </div>
+
+              <div class="detail-card">
+                <div class="card-header">File Lampiran (Desain & Surat)</div>
+                <div class="card-body">
+                  <div class="file-item">
+                    <div class="file-info"><span class="file-icon">🖼️</span><div><div class="file-name">desain_muka1.png</div><div class="file-meta">Desain 1 Muka • Bahasa Indonesia • 2.4 MB</div></div></div>
+                    <button class="btn btn-outline">Preview Desain</button>
+                  </div>
+                  <div class="file-item">
+                    <div class="file-info"><span class="file-icon">📄</span><div><div class="file-name">surat_permohonan.pdf</div><div class="file-meta">PDF • 1.1 MB</div></div></div>
+                    <button class="btn btn-outline">Lihat Surat</button>
+                  </div>
+                  <div class="file-item">
+                    <div class="file-info"><span class="file-icon">📄</span><div><div class="file-name">info_kegiatan.pdf</div><div class="file-meta">PDF • 0.8 MB</div></div></div>
+                    <button class="btn btn-outline">Lihat Informasi</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="detail-card">
+                <div class="card-header" style="background:#fff3bf">Review & Keputusan Awal</div>
+                <div class="card-body">
+                  <div style="font-size:12px;margin-bottom:12px;color:#495057">Periksa kelengkapan data kegiatan dan desain sertifikat. Jika tidak sesuai, Anda dapat menolak pengajuan ini.</div>
+                  <textarea class="textarea-mock" placeholder="Catatan penolakan (wajib jika menolak)..."></textarea>
+                  <div style="display:flex;gap:12px">
+                    <button class="btn btn-success">✅ Approve Pengajuan</button>
+                    <button class="btn btn-danger">❌ Reject / Tolak</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Kolom Kanan: Proses Generate (Sesuai PRD) -->
+            <div>
+              <div class="detail-card">
+                <div class="card-header">Status Penerbitan (Alur PRD)</div>
+                <div class="card-body">
+                  
+                  <!-- Step 1 -->
+                  <div class="step-box">
+                    <div class="step-dot success"></div>
+                    <div class="step-title">1. Pengajuan Masuk</div>
+                    <div class="step-desc">Pengaju telah mensubmit form pada 25 Jun 2026.</div>
+                  </div>
+
+                  <!-- Step 2 -->
+                  <div class="step-box">
+                    <div class="step-dot active"></div>
+                    <div class="step-title">2. Approve Pengajuan</div>
+                    <div class="step-desc" style="color:#e03131;font-weight:500">Menunggu keputusan Anda.</div>
+                  </div>
+
+                  <!-- Step 3 (Disabled state) -->
+                  <div class="step-box" style="opacity:0.5">
+                    <div class="step-dot"></div>
+                    <div class="step-title">3. Input Nomor di Excel</div>
+                    <div class="step-desc">Unduh file Excel asli dari pengaju, isikan kolom <strong>Nomor Sertifikat</strong> (dan Validity Code jika ada).</div>
+                    
+                    <div class="file-item" style="margin-top:10px;padding:8px">
+                      <div class="file-info"><span class="file-icon">📊</span><div><div class="file-name">data_peserta_asli.xlsx</div><div class="file-meta">150 Peserta</div></div></div>
+                      <button class="btn btn-outline" style="padding:4px 8px;font-size:10px">Unduh Excel</button>
+                    </div>
+                    
+                    <div style="background:#e9ecef;border:1px dashed #adb5bd;padding:12px;text-align:center;border-radius:6px;margin-top:8px">
+                      <span style="font-size:11px;color:#495057">Upload Excel yang sudah diisi Nomor Sertifikat</span>
+                      <button class="btn btn-outline" style="margin-top:8px;width:100%;justify-content:center" disabled>Upload Excel Baru</button>
+                    </div>
+                  </div>
+
+                  <!-- Step 4 (Disabled state) -->
+                  <div class="step-box" style="opacity:0.5">
+                    <div class="step-dot"></div>
+                    <div class="step-title">4. Generate Massal (Queue)</div>
+                    <div class="step-desc">Sistem akan menimpa (overlay) data teks dari Excel ke atas gambar desain yang diupload.</div>
+                    <button class="btn btn-primary" style="margin-top:8px;width:100%;justify-content:center" disabled>Mulai Generate 150 PDF</button>
+                  </div>
+
+                  <!-- Step 5 (Disabled state) -->
+                  <div class="step-box" style="opacity:0.5;border-left-color:transparent">
+                    <div class="step-dot"></div>
+                    <div class="step-title">5. Terbitkan</div>
+                    <div class="step-desc">Sertifikat siap diunduh oleh publik via nomor sertifikat. Email notifikasi akan dikirim ke pengaju.</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">FIK UI — Website Sertifikat Online &nbsp;|&nbsp; Wireframe Dashboard Admin &nbsp;|&nbsp; Juni 2026</div>
+</div>
+</body>
+</html>
